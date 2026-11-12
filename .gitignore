@@ -19,3 +19,7 @@ jobs/
 
 # Raw CMS downloads (large; re-downloadable from cms.gov)
 medical-coding-rl/data/raw/
+medical-coding-rl/data/raw.zip
+
+# Downloaded raw.zip (scripts/download_raw.py)
+raw.zip

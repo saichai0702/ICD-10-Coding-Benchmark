@@ -15,6 +15,33 @@ difference is where the agent gets its coding reference material:
 Comparing a model's score on the two tasks shows how much of its performance comes from coding
 knowledge and how much depends on having the correct reference data.
 
+> [!IMPORTANT]
+> **Raw CMS data is not in git. Download it with the setup script.**
+>
+> `medical-coding-rl/data/raw/` (326 MB of CMS zips and PDFs) is hosted on Google Drive as
+> **`raw.zip`**. Running `./setup.sh` downloads it automatically with
+> [`gdown`](https://github.com/wkentaro/gdown) and unpacks it into `medical-coding-rl/data/raw/`:
+>
+> ```bash
+> ./setup.sh
+> ```
+>
+> To fetch only the raw data:
+>
+> ```bash
+> cd medical-coding-rl
+> uv run --with gdown python scripts/download_raw.py
+> ```
+>
+> **Backup link** (use it if the script can't download the file):
+> **https://drive.google.com/file/d/1iPkcG5_32G3CTYEuiZi-OCIYVhgAJ1Uw/view?usp=sharing**
+> Save the file as `medical-coding-rl/data/raw.zip` and run the command above again. The script
+> unzips a `raw.zip` that is already there instead of downloading it.
+>
+> The raw data is only needed to **rebuild** the reference bundle (`scripts/build_reference.py`).
+> The built bundle (`data/reference/`, `reference.tar.gz`) is already in the repo, so both
+> benchmarks run without it.
+
 ---
 
 ## The ICD-10 coding task
@@ -130,16 +157,38 @@ you want to test.
 # 1. Install uv (skip if already installed)
 curl -LsSf https://astral.sh/uv/install.sh | sh
 
-# 2. Create the environment for each benchmark (installs Python 3.12 and harbor==0.25.0)
-cd medical-coding-rl
-uv sync
-cd ../medical-coding-rl-internet-search
-uv sync
-cd ..
+# 2. Clone the repo
+git clone https://github.com/saichai0702/ICD-10-Coding-Benchmark.git
+cd ICD-10-Coding-Benchmark
 
-# 3. Check that it worked
+# 3. One-step setup: uv sync in both folders + download raw.zip -> medical-coding-rl/data/raw/
+./setup.sh
+
+# 4. Check that it worked
 cd medical-coding-rl && uv run harbor --version && cd ..
 ```
+
+`setup.sh` options:
+
+| Command | What it does |
+|---|---|
+| `./setup.sh` | `uv sync` in both folders (installs Python 3.12 and `harbor==0.25.0`), then downloads and unpacks `raw.zip` |
+| `./setup.sh --skip-raw` | `uv sync` only, no raw data download |
+| `./setup.sh --force` | Downloads `raw.zip` again and replaces `medical-coding-rl/data/raw/` |
+| `./setup.sh --keep-zip` | Keeps `medical-coding-rl/data/raw.zip` after unpacking |
+
+To set up by hand instead:
+
+```bash
+(cd medical-coding-rl && uv sync)
+(cd medical-coding-rl-internet-search && uv sync)
+(cd medical-coding-rl && uv run --with gdown python scripts/download_raw.py)
+```
+
+> [!TIP]
+> If the download fails (Google Drive quota or a network error), open the
+> [backup link](https://drive.google.com/file/d/1iPkcG5_32G3CTYEuiZi-OCIYVhgAJ1Uw/view?usp=sharing),
+> save the file as `medical-coding-rl/data/raw.zip`, and run `./setup.sh` again.
 
 Each folder has its own `pyproject.toml`, `uv.lock` and `.venv/`, so run commands from inside
 the folder you're benchmarking. To use the environment without the `uv run` prefix, activate it
@@ -249,6 +298,7 @@ values (or the two `benchmark_report.md` files).
 ```
 .
 ├── README.md                              this file
+├── setup.sh                               uv sync both folders + download raw.zip
 ├── medical-coding-rl/                     benchmark WITH reference data
 │   ├── tasks/medical-coding/              the Harbor task
 │   │   ├── instruction.md                 prompt given to the agent
@@ -257,7 +307,8 @@ values (or the two `benchmark_report.md` files).
 │   │   ├── solution/                      oracle + groundtruth.json (uploaded only for -a oracle)
 │   │   └── tests/                         grader: score.py, report.py, groundtruth.json, valid codes
 │   ├── data/                              source cases + CMS reference data
-│   ├── scripts/                           run.sh, job_report.py, build_*.py, selftest.py
+│   │   └── raw/                           NOT in git: downloaded by setup.sh (raw.zip)
+│   ├── scripts/                           run.sh, download_raw.py, job_report.py, build_*.py, selftest.py
 │   └── pyproject.toml / uv.lock
 └── medical-coding-rl-internet-search/     benchmark WITHOUT reference data (internet search)
     ├── tasks/medical-coding/              same layout; no codetools, network_mode = "public"
