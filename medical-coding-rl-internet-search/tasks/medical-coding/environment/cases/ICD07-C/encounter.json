@@ -1,0 +1,8 @@
+{
+  "case_id": "ICD07-C",
+  "setting": "observation",
+  "claim_type": "outpatient_facility",
+  "service": "2026-10-09",
+  "payer": "Medicare fee-for-service",
+  "code_set": "FY2027 ICD-10-CM/PCS; HCPCS Level II October 2026"
+}

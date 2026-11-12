@@ -1,0 +1,8 @@
+{
+  "case_id": "ICD08-D",
+  "setting": "outpatient_lab",
+  "claim_type": "professional",
+  "service": "2026-10-22",
+  "payer": "Medicare",
+  "code_set": "FY2027 ICD-10-CM/PCS; HCPCS Level II October 2026"
+}

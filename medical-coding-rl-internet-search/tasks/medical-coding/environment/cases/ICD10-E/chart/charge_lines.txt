@@ -1,0 +1,2 @@
+CHARGE LINES (procedure codes come from the hospital charge master)
+INJ1: left knee joint injection with ultrasound guidance, units 1

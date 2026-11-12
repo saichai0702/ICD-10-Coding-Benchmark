@@ -1,0 +1,1693 @@
+{
+  "ICD01-A": {
+    "query_needed": false,
+    "query_text": "",
+    "codes": [
+      {
+        "code": "A41.51",
+        "system": "ICD-10-CM",
+        "role": "principal",
+        "poa": "Y",
+        "evidence": "Septic shock due to E. coli urinary tract infection"
+      },
+      {
+        "code": "R65.21",
+        "system": "ICD-10-CM",
+        "role": "secondary",
+        "poa": "Y",
+        "evidence": "Septic shock"
+      },
+      {
+        "code": "N39.0",
+        "system": "ICD-10-CM",
+        "role": "secondary",
+        "poa": "Y",
+        "evidence": "urinary tract infection"
+      },
+      {
+        "code": "N17.9",
+        "system": "ICD-10-CM",
+        "role": "secondary",
+        "poa": "Y",
+        "evidence": "sepsis-associated acute kidney injury"
+      }
+    ],
+    "scoring": {
+      "optional": [
+        "B96.20"
+      ],
+      "forbidden": [],
+      "cdm_lines": []
+    },
+    "meta": {
+      "title": "Sepsis with septic shock due to E. coli UTI, all POA",
+      "playbook_example": "ICD-01",
+      "setting": "inpatient",
+      "edge_case_tags": [
+        "sepsis_poa",
+        "organism_in_combination_code"
+      ],
+      "gold_review_status": "playbook"
+    }
+  },
+  "ICD01-B": {
+    "query_needed": false,
+    "query_text": "",
+    "codes": [
+      {
+        "code": "N39.0",
+        "system": "ICD-10-CM",
+        "role": "principal",
+        "poa": "Y",
+        "evidence": "E. coli urinary tract infection"
+      },
+      {
+        "code": "A41.51",
+        "system": "ICD-10-CM",
+        "role": "secondary",
+        "poa": "N",
+        "evidence": "developed septic shock due to E. coli UTI"
+      },
+      {
+        "code": "R65.21",
+        "system": "ICD-10-CM",
+        "role": "secondary",
+        "poa": "N",
+        "evidence": "developed septic shock"
+      },
+      {
+        "code": "N17.9",
+        "system": "ICD-10-CM",
+        "role": "secondary",
+        "poa": "N",
+        "evidence": "sepsis-associated acute kidney injury"
+      }
+    ],
+    "scoring": {
+      "optional": [
+        "B96.20"
+      ],
+      "forbidden": [],
+      "cdm_lines": []
+    },
+    "meta": {
+      "title": "Sepsis developed after admission for E. coli UTI",
+      "playbook_example": "ICD-01",
+      "setting": "inpatient",
+      "edge_case_tags": [
+        "sepsis_not_poa"
+      ],
+      "gold_review_status": "playbook"
+    }
+  },
+  "ICD01-C": {
+    "query_needed": true,
+    "query_text": "urosepsis has no code: clarify sepsis vs UTI",
+    "codes": [],
+    "scoring": {
+      "optional": [],
+      "forbidden": [
+        "A41.9",
+        "A41.51",
+        "N39.0",
+        "R65.20",
+        "R65.21",
+        "A41.89"
+      ],
+      "cdm_lines": []
+    },
+    "meta": {
+      "title": "'Urosepsis' documented \u2014 must query",
+      "playbook_example": "ICD-01",
+      "setting": "inpatient",
+      "edge_case_tags": [
+        "urosepsis_query"
+      ],
+      "gold_review_status": "derived"
+    }
+  },
+  "ICD01-D": {
+    "query_needed": false,
+    "query_text": "",
+    "codes": [
+      {
+        "code": "A41.9",
+        "system": "ICD-10-CM",
+        "role": "principal",
+        "poa": "Y",
+        "evidence": "Septic shock due to urinary tract infection, organism not identified"
+      },
+      {
+        "code": "R65.21",
+        "system": "ICD-10-CM",
+        "role": "secondary",
+        "poa": "Y",
+        "evidence": "Septic shock"
+      },
+      {
+        "code": "N39.0",
+        "system": "ICD-10-CM",
+        "role": "secondary",
+        "poa": "Y",
+        "evidence": "urinary tract infection"
+      },
+      {
+        "code": "N17.9",
+        "system": "ICD-10-CM",
+        "role": "secondary",
+        "poa": "Y",
+        "evidence": "sepsis-associated acute kidney injury"
+      }
+    ],
+    "scoring": {
+      "optional": [],
+      "forbidden": [
+        "A41.51",
+        "B96.20"
+      ],
+      "cdm_lines": []
+    },
+    "meta": {
+      "title": "Septic shock from UTI, organism not identified",
+      "playbook_example": "ICD-01",
+      "setting": "inpatient",
+      "edge_case_tags": [
+        "sepsis_organism_unknown"
+      ],
+      "gold_review_status": "derived"
+    }
+  },
+  "ICD02-A": {
+    "query_needed": false,
+    "query_text": "",
+    "codes": [
+      {
+        "code": "E11.22",
+        "system": "ICD-10-CM",
+        "role": "first_listed",
+        "evidence": "T2DM, A1c 7.6"
+      },
+      {
+        "code": "I12.9",
+        "system": "ICD-10-CM",
+        "role": "secondary",
+        "evidence": "Hypertension controlled on lisinopril"
+      },
+      {
+        "code": "N18.32",
+        "system": "ICD-10-CM",
+        "role": "secondary",
+        "evidence": "CKD stage 3b"
+      },
+      {
+        "code": "Z79.4",
+        "system": "ICD-10-CM",
+        "role": "secondary",
+        "evidence": "insulin glargine"
+      },
+      {
+        "code": "Z79.84",
+        "system": "ICD-10-CM",
+        "role": "secondary",
+        "evidence": "metformin"
+      }
+    ],
+    "scoring": {
+      "optional": [],
+      "forbidden": [
+        "E11.65",
+        "I10"
+      ],
+      "cdm_lines": []
+    },
+    "meta": {
+      "title": "T2DM with CKD 3b and hypertension",
+      "playbook_example": "ICD-02",
+      "setting": "office",
+      "edge_case_tags": [
+        "with_convention",
+        "hcc"
+      ],
+      "gold_review_status": "playbook"
+    }
+  },
+  "ICD02-B": {
+    "query_needed": true,
+    "query_text": "CKD stage not documented; eGFR suggests stage 3b",
+    "codes": [
+      {
+        "code": "E11.22",
+        "system": "ICD-10-CM",
+        "role": "first_listed",
+        "evidence": "T2DM, A1c 7.6"
+      },
+      {
+        "code": "I12.9",
+        "system": "ICD-10-CM",
+        "role": "secondary",
+        "evidence": "Hypertension controlled on lisinopril"
+      },
+      {
+        "code": "N18.9",
+        "system": "ICD-10-CM",
+        "role": "secondary",
+        "evidence": "Chronic kidney disease"
+      },
+      {
+        "code": "Z79.4",
+        "system": "ICD-10-CM",
+        "role": "secondary",
+        "evidence": "insulin glargine"
+      },
+      {
+        "code": "Z79.84",
+        "system": "ICD-10-CM",
+        "role": "secondary",
+        "evidence": "metformin"
+      }
+    ],
+    "scoring": {
+      "optional": [],
+      "forbidden": [
+        "N18.32",
+        "N18.31",
+        "N18.30"
+      ],
+      "cdm_lines": []
+    },
+    "meta": {
+      "title": "CKD stage not documented (labs only)",
+      "playbook_example": "ICD-02",
+      "setting": "office",
+      "edge_case_tags": [
+        "ckd_stage_query"
+      ],
+      "gold_review_status": "derived"
+    }
+  },
+  "ICD02-C": {
+    "query_needed": false,
+    "query_text": "",
+    "codes": [
+      {
+        "code": "E11.22",
+        "system": "ICD-10-CM",
+        "role": "first_listed",
+        "evidence": "T2DM, A1c 7.6"
+      },
+      {
+        "code": "I12.0",
+        "system": "ICD-10-CM",
+        "role": "secondary",
+        "evidence": "Hypertension controlled on lisinopril"
+      },
+      {
+        "code": "N18.6",
+        "system": "ICD-10-CM",
+        "role": "secondary",
+        "evidence": "ESRD on hemodialysis"
+      },
+      {
+        "code": "Z99.2",
+        "system": "ICD-10-CM",
+        "role": "secondary",
+        "evidence": "on hemodialysis"
+      },
+      {
+        "code": "Z79.4",
+        "system": "ICD-10-CM",
+        "role": "secondary",
+        "evidence": "insulin glargine"
+      },
+      {
+        "code": "Z79.84",
+        "system": "ICD-10-CM",
+        "role": "secondary",
+        "evidence": "metformin"
+      }
+    ],
+    "scoring": {
+      "optional": [],
+      "forbidden": [
+        "I12.9",
+        "N18.32",
+        "N18.5"
+      ],
+      "cdm_lines": []
+    },
+    "meta": {
+      "title": "Diabetes with ESRD on dialysis",
+      "playbook_example": "ICD-02",
+      "setting": "office",
+      "edge_case_tags": [
+        "esrd_dialysis"
+      ],
+      "gold_review_status": "derived"
+    }
+  },
+  "ICD02-D": {
+    "query_needed": false,
+    "query_text": "",
+    "codes": [
+      {
+        "code": "E11.9",
+        "system": "ICD-10-CM",
+        "role": "first_listed",
+        "evidence": "Diabetes has no complications"
+      },
+      {
+        "code": "Q61.2",
+        "system": "ICD-10-CM",
+        "role": "secondary",
+        "evidence": "autosomal dominant polycystic kidney disease"
+      },
+      {
+        "code": "I12.9",
+        "system": "ICD-10-CM",
+        "role": "secondary",
+        "evidence": "Hypertension controlled on lisinopril"
+      },
+      {
+        "code": "N18.32",
+        "system": "ICD-10-CM",
+        "role": "secondary",
+        "evidence": "CKD stage 3b"
+      },
+      {
+        "code": "Z79.4",
+        "system": "ICD-10-CM",
+        "role": "secondary",
+        "evidence": "insulin glargine"
+      },
+      {
+        "code": "Z79.84",
+        "system": "ICD-10-CM",
+        "role": "secondary",
+        "evidence": "metformin"
+      }
+    ],
+    "scoring": {
+      "optional": [],
+      "forbidden": [
+        "E11.22"
+      ],
+      "cdm_lines": []
+    },
+    "meta": {
+      "title": "Provider breaks the diabetes-CKD link (ADPKD)",
+      "playbook_example": "ICD-02",
+      "setting": "office",
+      "edge_case_tags": [
+        "provider_breaks_link"
+      ],
+      "gold_review_status": "derived"
+    }
+  },
+  "ICD03-A": {
+    "query_needed": false,
+    "query_text": "",
+    "codes": [
+      {
+        "code": "I13.0",
+        "system": "ICD-10-CM",
+        "role": "principal",
+        "poa": "Y",
+        "evidence": "Hypertension. CKD stage 4"
+      },
+      {
+        "code": "I50.23",
+        "system": "ICD-10-CM",
+        "role": "secondary",
+        "poa": "Y",
+        "evidence": "Acute on chronic systolic (HFrEF) heart failure"
+      },
+      {
+        "code": "N18.4",
+        "system": "ICD-10-CM",
+        "role": "secondary",
+        "poa": "Y",
+        "evidence": "CKD stage 4"
+      }
+    ],
+    "scoring": {
+      "optional": [],
+      "forbidden": [
+        "I11.0",
+        "I12.9",
+        "I10"
+      ],
+      "cdm_lines": []
+    },
+    "meta": {
+      "title": "Acute on chronic systolic HF with HTN and CKD 4",
+      "playbook_example": "ICD-03",
+      "setting": "inpatient",
+      "edge_case_tags": [
+        "htn_hf_ckd_triad"
+      ],
+      "gold_review_status": "playbook"
+    }
+  },
+  "ICD03-B": {
+    "query_needed": true,
+    "query_text": "heart failure type and acuity not documented (EF 25% on echo)",
+    "codes": [
+      {
+        "code": "I13.0",
+        "system": "ICD-10-CM",
+        "role": "principal",
+        "poa": "Y",
+        "evidence": "Hypertension. CKD stage 4"
+      },
+      {
+        "code": "I50.9",
+        "system": "ICD-10-CM",
+        "role": "secondary",
+        "poa": "Y",
+        "evidence": "CHF exacerbation"
+      },
+      {
+        "code": "N18.4",
+        "system": "ICD-10-CM",
+        "role": "secondary",
+        "poa": "Y",
+        "evidence": "CKD stage 4"
+      }
+    ],
+    "scoring": {
+      "optional": [],
+      "forbidden": [
+        "I50.23",
+        "I50.22",
+        "I50.21",
+        "I50.20"
+      ],
+      "cdm_lines": []
+    },
+    "meta": {
+      "title": "HF type not documented (only 'CHF'); EF on echo",
+      "playbook_example": "ICD-03",
+      "setting": "inpatient",
+      "edge_case_tags": [
+        "hf_type_query",
+        "no_inference_from_ef"
+      ],
+      "gold_review_status": "derived"
+    }
+  },
+  "ICD03-C": {
+    "query_needed": false,
+    "query_text": "",
+    "codes": [
+      {
+        "code": "I13.0",
+        "system": "ICD-10-CM",
+        "role": "principal",
+        "poa": "Y",
+        "evidence": "Hypertension. CKD stage 4"
+      },
+      {
+        "code": "I50.33",
+        "system": "ICD-10-CM",
+        "role": "secondary",
+        "poa": "Y",
+        "evidence": "Acute on chronic diastolic (HFpEF) heart failure"
+      },
+      {
+        "code": "N18.4",
+        "system": "ICD-10-CM",
+        "role": "secondary",
+        "poa": "Y",
+        "evidence": "CKD stage 4"
+      }
+    ],
+    "scoring": {
+      "optional": [],
+      "forbidden": [
+        "I50.23"
+      ],
+      "cdm_lines": []
+    },
+    "meta": {
+      "title": "Acute on chronic diastolic HF (HFpEF)",
+      "playbook_example": "ICD-03",
+      "setting": "inpatient",
+      "edge_case_tags": [
+        "hfpef"
+      ],
+      "gold_review_status": "derived"
+    }
+  },
+  "ICD04-A": {
+    "query_needed": false,
+    "query_text": "",
+    "codes": [
+      {
+        "code": "S72.141A",
+        "system": "ICD-10-CM",
+        "role": "principal",
+        "poa": "Y",
+        "evidence": "displaced intertrochanteric fracture, right femur"
+      },
+      {
+        "code": "W18.09XA",
+        "system": "ICD-10-CM",
+        "role": "secondary",
+        "evidence": "tripped over a rug",
+        "accept": [
+          "W01.0XXA"
+        ]
+      },
+      {
+        "code": "Y92.013",
+        "system": "ICD-10-CM",
+        "role": "secondary",
+        "evidence": "bedroom of her single-family house"
+      },
+      {
+        "code": "0QS636Z",
+        "system": "ICD-10-PCS",
+        "role": "principal_procedure",
+        "evidence": "the fracture site was not exposed"
+      }
+    ],
+    "scoring": {
+      "optional": [
+        "Y99.8",
+        "Y93.01",
+        "Y93.89"
+      ],
+      "forbidden": [
+        "0QS606Z",
+        "0QH636Z",
+        "W22.8XXA"
+      ],
+      "cdm_lines": []
+    },
+    "meta": {
+      "title": "Hip fracture, nail through stab incision (percutaneous)",
+      "playbook_example": "ICD-04",
+      "setting": "inpatient",
+      "edge_case_tags": [
+        "pcs_approach_percutaneous",
+        "7th_char"
+      ],
+      "gold_review_status": "derived"
+    }
+  },
+  "ICD04-B": {
+    "query_needed": false,
+    "query_text": "",
+    "codes": [
+      {
+        "code": "S72.141A",
+        "system": "ICD-10-CM",
+        "role": "principal",
+        "poa": "Y",
+        "evidence": "displaced intertrochanteric fracture, right femur"
+      },
+      {
+        "code": "W18.09XA",
+        "system": "ICD-10-CM",
+        "role": "secondary",
+        "evidence": "tripped over a rug",
+        "accept": [
+          "W01.0XXA"
+        ]
+      },
+      {
+        "code": "Y92.013",
+        "system": "ICD-10-CM",
+        "role": "secondary",
+        "evidence": "bedroom of her single-family house"
+      },
+      {
+        "code": "0QS606Z",
+        "system": "ICD-10-PCS",
+        "role": "principal_procedure",
+        "evidence": "the fracture site was exposed"
+      }
+    ],
+    "scoring": {
+      "optional": [
+        "Y99.8",
+        "Y93.01",
+        "Y93.89"
+      ],
+      "forbidden": [
+        "0QS636Z"
+      ],
+      "cdm_lines": []
+    },
+    "meta": {
+      "title": "Hip fracture, fracture site exposed (open)",
+      "playbook_example": "ICD-04",
+      "setting": "inpatient",
+      "edge_case_tags": [
+        "pcs_approach_open"
+      ],
+      "gold_review_status": "derived"
+    }
+  },
+  "ICD04-C": {
+    "query_needed": true,
+    "query_text": "approach for nail insertion (open vs percutaneous) unclear",
+    "codes": [
+      {
+        "code": "S72.141A",
+        "system": "ICD-10-CM",
+        "role": "principal",
+        "poa": "Y",
+        "evidence": "displaced intertrochanteric fracture, right femur"
+      },
+      {
+        "code": "W18.09XA",
+        "system": "ICD-10-CM",
+        "role": "secondary",
+        "evidence": "tripped over a rug",
+        "accept": [
+          "W01.0XXA"
+        ]
+      },
+      {
+        "code": "Y92.013",
+        "system": "ICD-10-CM",
+        "role": "secondary",
+        "evidence": "bedroom of her single-family house"
+      }
+    ],
+    "scoring": {
+      "optional": [
+        "Y99.8",
+        "Y93.01",
+        "Y93.89"
+      ],
+      "forbidden": [
+        "0QS606Z",
+        "0QS636Z"
+      ],
+      "cdm_lines": []
+    },
+    "meta": {
+      "title": "Hip fracture, approach wording ambiguous",
+      "playbook_example": "ICD-04",
+      "setting": "inpatient",
+      "edge_case_tags": [
+        "pcs_approach_query"
+      ],
+      "gold_review_status": "playbook"
+    }
+  },
+  "ICD04-D": {
+    "query_needed": false,
+    "query_text": "",
+    "codes": [
+      {
+        "code": "S72.141A",
+        "system": "ICD-10-CM",
+        "role": "principal",
+        "poa": "Y",
+        "evidence": "displaced intertrochanteric fracture, right femur"
+      },
+      {
+        "code": "W18.09XA",
+        "system": "ICD-10-CM",
+        "role": "secondary",
+        "evidence": "tripped over a rug",
+        "accept": [
+          "W01.0XXA"
+        ]
+      },
+      {
+        "code": "Y92.122",
+        "system": "ICD-10-CM",
+        "role": "secondary",
+        "evidence": "nursing home bedroom"
+      },
+      {
+        "code": "0QS636Z",
+        "system": "ICD-10-PCS",
+        "role": "principal_procedure",
+        "evidence": "the fracture site was not exposed"
+      }
+    ],
+    "scoring": {
+      "optional": [
+        "Y99.8",
+        "Y93.01",
+        "Y93.89"
+      ],
+      "forbidden": [
+        "Y92.013",
+        "0QS606Z"
+      ],
+      "cdm_lines": []
+    },
+    "meta": {
+      "title": "Hip fracture, fall in nursing home bedroom",
+      "playbook_example": "ICD-04",
+      "setting": "inpatient",
+      "edge_case_tags": [
+        "place_of_occurrence"
+      ],
+      "gold_review_status": "derived"
+    }
+  },
+  "ICD05-A": {
+    "query_needed": false,
+    "query_text": "",
+    "codes": [
+      {
+        "code": "K80.00",
+        "system": "ICD-10-CM",
+        "role": "principal",
+        "poa": "Y",
+        "evidence": "acute calculous cholecystitis without obstruction"
+      },
+      {
+        "code": "Z53.31",
+        "system": "ICD-10-CM",
+        "role": "secondary",
+        "evidence": "converted to open"
+      },
+      {
+        "code": "0FT40ZZ",
+        "system": "ICD-10-PCS",
+        "role": "principal_procedure",
+        "evidence": "Gallbladder removed completely through a right subcostal incision"
+      },
+      {
+        "code": "0FJ44ZZ",
+        "system": "ICD-10-PCS",
+        "role": "procedure",
+        "evidence": "Laparoscopic cholecystectomy started"
+      }
+    ],
+    "scoring": {
+      "optional": [],
+      "forbidden": [
+        "0FT44ZZ"
+      ],
+      "cdm_lines": []
+    },
+    "meta": {
+      "title": "Laparoscopic cholecystectomy converted to open",
+      "playbook_example": "ICD-05",
+      "setting": "inpatient",
+      "edge_case_tags": [
+        "converted_procedure"
+      ],
+      "gold_review_status": "playbook"
+    }
+  },
+  "ICD05-B": {
+    "query_needed": false,
+    "query_text": "",
+    "codes": [
+      {
+        "code": "K80.00",
+        "system": "ICD-10-CM",
+        "role": "principal",
+        "poa": "Y",
+        "evidence": "acute calculous cholecystitis without obstruction"
+      },
+      {
+        "code": "0FT44ZZ",
+        "system": "ICD-10-PCS",
+        "role": "principal_procedure",
+        "evidence": "Gallbladder removed completely laparoscopically"
+      }
+    ],
+    "scoring": {
+      "optional": [],
+      "forbidden": [
+        "Z53.31",
+        "0FT40ZZ",
+        "0FJ44ZZ"
+      ],
+      "cdm_lines": []
+    },
+    "meta": {
+      "title": "Laparoscopic cholecystectomy completed laparoscopically",
+      "playbook_example": "ICD-05",
+      "setting": "inpatient",
+      "edge_case_tags": [
+        "not_converted"
+      ],
+      "gold_review_status": "derived"
+    }
+  },
+  "ICD06-A": {
+    "query_needed": false,
+    "query_text": "",
+    "codes": [
+      {
+        "code": "I21.4",
+        "system": "ICD-10-CM",
+        "role": "principal",
+        "poa": "Y",
+        "evidence": "NSTEMI (type 1)"
+      },
+      {
+        "code": "I25.10",
+        "system": "ICD-10-CM",
+        "role": "secondary",
+        "poa": "Y",
+        "evidence": "Coronary artery disease of native vessels"
+      },
+      {
+        "code": "027134Z",
+        "system": "ICD-10-PCS",
+        "role": "principal_procedure",
+        "evidence": "LAD: one drug-eluting stent placed. RCA: one drug-eluting stent placed."
+      }
+    ],
+    "scoring": {
+      "optional": [
+        "B2111ZZ",
+        "4A023N7"
+      ],
+      "forbidden": [
+        "027035Z",
+        "02703DZ"
+      ],
+      "cdm_lines": []
+    },
+    "meta": {
+      "title": "NSTEMI, one DES in each of two arteries",
+      "playbook_example": "ICD-06",
+      "setting": "inpatient",
+      "edge_case_tags": [
+        "pcs_count_arteries"
+      ],
+      "gold_review_status": "playbook"
+    }
+  },
+  "ICD06-B": {
+    "query_needed": false,
+    "query_text": "",
+    "codes": [
+      {
+        "code": "I21.4",
+        "system": "ICD-10-CM",
+        "role": "principal",
+        "poa": "Y",
+        "evidence": "NSTEMI (type 1)"
+      },
+      {
+        "code": "I25.10",
+        "system": "ICD-10-CM",
+        "role": "secondary",
+        "poa": "Y",
+        "evidence": "Coronary artery disease of native vessels"
+      },
+      {
+        "code": "027035Z",
+        "system": "ICD-10-PCS",
+        "role": "principal_procedure",
+        "evidence": "LAD: two overlapping drug-eluting stents placed"
+      }
+    ],
+    "scoring": {
+      "optional": [
+        "B2111ZZ",
+        "4A023N7"
+      ],
+      "forbidden": [
+        "027134Z"
+      ],
+      "cdm_lines": []
+    },
+    "meta": {
+      "title": "NSTEMI, two DES in one artery",
+      "playbook_example": "ICD-06",
+      "setting": "inpatient",
+      "edge_case_tags": [
+        "pcs_count_devices"
+      ],
+      "gold_review_status": "derived"
+    }
+  },
+  "ICD06-C": {
+    "query_needed": false,
+    "query_text": "",
+    "codes": [
+      {
+        "code": "I21.4",
+        "system": "ICD-10-CM",
+        "role": "principal",
+        "poa": "Y",
+        "evidence": "NSTEMI (type 1)"
+      },
+      {
+        "code": "I25.10",
+        "system": "ICD-10-CM",
+        "role": "secondary",
+        "poa": "Y",
+        "evidence": "Coronary artery disease of native vessels"
+      },
+      {
+        "code": "02703ZZ",
+        "system": "ICD-10-PCS",
+        "role": "principal_procedure",
+        "evidence": "balloon angioplasty only; no stent placed"
+      }
+    ],
+    "scoring": {
+      "optional": [
+        "B2111ZZ",
+        "4A023N7"
+      ],
+      "forbidden": [
+        "027034Z",
+        "027134Z"
+      ],
+      "cdm_lines": []
+    },
+    "meta": {
+      "title": "NSTEMI, balloon angioplasty only",
+      "playbook_example": "ICD-06",
+      "setting": "inpatient",
+      "edge_case_tags": [
+        "pcs_no_device"
+      ],
+      "gold_review_status": "derived"
+    }
+  },
+  "ICD07-A": {
+    "query_needed": false,
+    "query_text": "",
+    "codes": [
+      {
+        "code": "R05.1",
+        "system": "ICD-10-CM",
+        "role": "first_listed",
+        "evidence": "Cough and fever for 3 days"
+      },
+      {
+        "code": "R50.9",
+        "system": "ICD-10-CM",
+        "role": "secondary",
+        "evidence": "Cough and fever for 3 days"
+      }
+    ],
+    "scoring": {
+      "optional": [],
+      "forbidden": [
+        "J18.9"
+      ],
+      "cdm_lines": []
+    },
+    "meta": {
+      "title": "ED visit: 'probable pneumonia'",
+      "playbook_example": "ICD-07",
+      "setting": "ed",
+      "edge_case_tags": [
+        "uncertain_dx_outpatient"
+      ],
+      "gold_review_status": "playbook"
+    }
+  },
+  "ICD07-B": {
+    "query_needed": false,
+    "query_text": "",
+    "codes": [
+      {
+        "code": "J18.9",
+        "system": "ICD-10-CM",
+        "role": "principal",
+        "poa": "Y",
+        "evidence": "Final diagnosis at discharge: probable pneumonia"
+      }
+    ],
+    "scoring": {
+      "optional": [],
+      "forbidden": [
+        "R05.1",
+        "R50.9"
+      ],
+      "cdm_lines": []
+    },
+    "meta": {
+      "title": "Inpatient discharge: 'probable pneumonia'",
+      "playbook_example": "ICD-07",
+      "setting": "inpatient",
+      "edge_case_tags": [
+        "uncertain_dx_inpatient"
+      ],
+      "gold_review_status": "playbook"
+    }
+  },
+  "ICD07-C": {
+    "query_needed": false,
+    "query_text": "",
+    "codes": [
+      {
+        "code": "R05.1",
+        "system": "ICD-10-CM",
+        "role": "first_listed",
+        "evidence": "Cough and fever for 3 days"
+      },
+      {
+        "code": "R50.9",
+        "system": "ICD-10-CM",
+        "role": "secondary",
+        "evidence": "Cough and fever for 3 days"
+      }
+    ],
+    "scoring": {
+      "optional": [],
+      "forbidden": [
+        "J18.9"
+      ],
+      "cdm_lines": []
+    },
+    "meta": {
+      "title": "Observation stay: 'probable pneumonia'",
+      "playbook_example": "ICD-07",
+      "setting": "observation",
+      "edge_case_tags": [
+        "observation_uses_outpatient_rules"
+      ],
+      "gold_review_status": "derived"
+    }
+  },
+  "ICD08-A": {
+    "query_needed": false,
+    "query_text": "",
+    "codes": [
+      {
+        "code": "LAB1",
+        "system": "CDM",
+        "role": "line",
+        "modifiers": [
+          "GA"
+        ],
+        "units": 1,
+        "evidence": "LAB1: 25-hydroxy vitamin D level"
+      },
+      {
+        "code": "R53.83",
+        "system": "ICD-10-CM",
+        "role": "first_listed",
+        "evidence": "Diagnosis on order: fatigue"
+      }
+    ],
+    "scoring": {
+      "optional": [],
+      "forbidden": [],
+      "cdm_lines": [
+        "LAB1"
+      ]
+    },
+    "meta": {
+      "title": "Vitamin D for fatigue, valid ABN",
+      "playbook_example": "ICD-08",
+      "setting": "outpatient_lab",
+      "edge_case_tags": [
+        "lcd_not_covered_abn_valid"
+      ],
+      "gold_review_status": "playbook"
+    }
+  },
+  "ICD08-B": {
+    "query_needed": false,
+    "query_text": "",
+    "codes": [
+      {
+        "code": "LAB1",
+        "system": "CDM",
+        "role": "line",
+        "modifiers": [
+          "GZ"
+        ],
+        "units": 1,
+        "evidence": "LAB1: 25-hydroxy vitamin D level"
+      },
+      {
+        "code": "R53.83",
+        "system": "ICD-10-CM",
+        "role": "first_listed",
+        "evidence": "Diagnosis on order: fatigue"
+      }
+    ],
+    "scoring": {
+      "optional": [],
+      "forbidden": [
+        "E55.9"
+      ],
+      "cdm_lines": [
+        "LAB1"
+      ]
+    },
+    "meta": {
+      "title": "Vitamin D for fatigue, no ABN",
+      "playbook_example": "ICD-08",
+      "setting": "outpatient_lab",
+      "edge_case_tags": [
+        "lcd_not_covered_no_abn"
+      ],
+      "gold_review_status": "derived"
+    }
+  },
+  "ICD08-C": {
+    "query_needed": false,
+    "query_text": "",
+    "codes": [
+      {
+        "code": "LAB1",
+        "system": "CDM",
+        "role": "line",
+        "modifiers": [
+          "GZ"
+        ],
+        "units": 1,
+        "evidence": "LAB1: 25-hydroxy vitamin D level"
+      },
+      {
+        "code": "R53.83",
+        "system": "ICD-10-CM",
+        "role": "first_listed",
+        "evidence": "Diagnosis on order: fatigue"
+      }
+    ],
+    "scoring": {
+      "optional": [],
+      "forbidden": [],
+      "cdm_lines": [
+        "LAB1"
+      ]
+    },
+    "meta": {
+      "title": "Vitamin D for fatigue, ABN signed after the draw",
+      "playbook_example": "ICD-08",
+      "setting": "outpatient_lab",
+      "edge_case_tags": [
+        "abn_late"
+      ],
+      "gold_review_status": "derived"
+    }
+  },
+  "ICD08-D": {
+    "query_needed": false,
+    "query_text": "",
+    "codes": [
+      {
+        "code": "LAB1",
+        "system": "CDM",
+        "role": "line",
+        "modifiers": [],
+        "units": 1,
+        "evidence": "LAB1: 25-hydroxy vitamin D level"
+      },
+      {
+        "code": "N18.32",
+        "system": "ICD-10-CM",
+        "role": "first_listed",
+        "evidence": "chronic kidney disease, stage 3b"
+      }
+    ],
+    "scoring": {
+      "optional": [],
+      "forbidden": [],
+      "cdm_lines": [
+        "LAB1"
+      ]
+    },
+    "meta": {
+      "title": "Vitamin D with covered diagnosis documented",
+      "playbook_example": "ICD-08",
+      "setting": "outpatient_lab",
+      "edge_case_tags": [
+        "lcd_covered"
+      ],
+      "gold_review_status": "derived"
+    }
+  },
+  "ICD09-A": {
+    "query_needed": false,
+    "query_text": "",
+    "codes": [
+      {
+        "code": "PROC1",
+        "system": "CDM",
+        "role": "line",
+        "modifiers": [
+          "PT"
+        ],
+        "units": 1,
+        "evidence": "PROC1: colonoscopy with snare removal of polyp"
+      },
+      {
+        "code": "Z12.11",
+        "system": "ICD-10-CM",
+        "role": "first_listed",
+        "evidence": "average-risk colorectal cancer screening"
+      },
+      {
+        "code": "K63.5",
+        "system": "ICD-10-CM",
+        "role": "secondary",
+        "evidence": "6 mm polyp in the sigmoid colon"
+      }
+    ],
+    "scoring": {
+      "optional": [],
+      "forbidden": [
+        "G0121",
+        "G0105",
+        "D12.5"
+      ],
+      "cdm_lines": [
+        "PROC1"
+      ]
+    },
+    "meta": {
+      "title": "Screening colonoscopy, polyp removed by snare, pathology pending",
+      "playbook_example": "ICD-09",
+      "setting": "asc",
+      "edge_case_tags": [
+        "screening_converted_pt"
+      ],
+      "gold_review_status": "playbook"
+    }
+  },
+  "ICD09-B": {
+    "query_needed": false,
+    "query_text": "",
+    "codes": [
+      {
+        "code": "PROC1",
+        "system": "CDM",
+        "role": "line",
+        "modifiers": [
+          "PT"
+        ],
+        "units": 1,
+        "evidence": "PROC1: colonoscopy with snare removal of polyp"
+      },
+      {
+        "code": "Z12.11",
+        "system": "ICD-10-CM",
+        "role": "first_listed",
+        "evidence": "average-risk colorectal cancer screening"
+      },
+      {
+        "code": "D12.5",
+        "system": "ICD-10-CM",
+        "role": "secondary",
+        "evidence": "Sigmoid colon polyp, snare: tubular adenoma"
+      }
+    ],
+    "scoring": {
+      "optional": [],
+      "forbidden": [
+        "G0121",
+        "G0105",
+        "K63.5"
+      ],
+      "cdm_lines": [
+        "PROC1"
+      ]
+    },
+    "meta": {
+      "title": "Screening colonoscopy, polyp removed, pathology adenoma",
+      "playbook_example": "ICD-09",
+      "setting": "asc",
+      "edge_case_tags": [
+        "pathology_changes_dx"
+      ],
+      "gold_review_status": "playbook"
+    }
+  },
+  "ICD09-C": {
+    "query_needed": false,
+    "query_text": "",
+    "codes": [
+      {
+        "code": "G0121",
+        "system": "HCPCS",
+        "role": "line",
+        "modifiers": [],
+        "units": 1,
+        "evidence": "average-risk colorectal cancer screening"
+      },
+      {
+        "code": "Z12.11",
+        "system": "ICD-10-CM",
+        "role": "first_listed",
+        "evidence": "average-risk colorectal cancer screening"
+      }
+    ],
+    "scoring": {
+      "optional": [],
+      "forbidden": [
+        "PROC1",
+        "G0105"
+      ],
+      "cdm_lines": [
+        "PROC1"
+      ]
+    },
+    "meta": {
+      "title": "Screening colonoscopy, no findings",
+      "playbook_example": "ICD-09",
+      "setting": "asc",
+      "edge_case_tags": [
+        "screening_normal_gcode"
+      ],
+      "gold_review_status": "derived"
+    }
+  },
+  "ICD09-D": {
+    "query_needed": false,
+    "query_text": "",
+    "codes": [
+      {
+        "code": "PROC1",
+        "system": "CDM",
+        "role": "line",
+        "modifiers": [],
+        "units": 1,
+        "evidence": "PROC1: colonoscopy with snare removal of polyp"
+      },
+      {
+        "code": "K62.5",
+        "system": "ICD-10-CM",
+        "role": "secondary",
+        "evidence": "rectal bleeding for 3 weeks",
+        "role_scored": false
+      },
+      {
+        "code": "K63.5",
+        "system": "ICD-10-CM",
+        "role": "secondary",
+        "evidence": "6 mm polyp in the sigmoid colon",
+        "role_scored": false
+      }
+    ],
+    "scoring": {
+      "optional": [],
+      "forbidden": [
+        "Z12.11",
+        "G0121",
+        "G0105"
+      ],
+      "cdm_lines": [
+        "PROC1"
+      ]
+    },
+    "meta": {
+      "title": "Colonoscopy started for rectal bleeding (diagnostic)",
+      "playbook_example": "ICD-09",
+      "setting": "asc",
+      "edge_case_tags": [
+        "diagnostic_from_start"
+      ],
+      "gold_review_status": "derived"
+    }
+  },
+  "ICD10-A": {
+    "query_needed": false,
+    "query_text": "",
+    "codes": [
+      {
+        "code": "INJ1",
+        "system": "CDM",
+        "role": "line",
+        "modifiers": [
+          "RT"
+        ],
+        "units": 1,
+        "evidence": "INJ1: right knee joint injection"
+      },
+      {
+        "code": "J3301",
+        "system": "HCPCS",
+        "role": "line",
+        "modifiers": [
+          "JZ"
+        ],
+        "units": 4,
+        "evidence": "Triamcinolone acetonide 40 mg"
+      },
+      {
+        "code": "M17.11",
+        "system": "ICD-10-CM",
+        "role": "secondary",
+        "evidence": "primary osteoarthritis, right knee",
+        "role_scored": false
+      },
+      {
+        "code": "I10",
+        "system": "ICD-10-CM",
+        "role": "secondary",
+        "evidence": "uncontrolled hypertension",
+        "role_scored": false
+      }
+    ],
+    "scoring": {
+      "optional": [],
+      "forbidden": [
+        "M17.12",
+        "M17.0"
+      ],
+      "cdm_lines": [
+        "INJ1"
+      ]
+    },
+    "meta": {
+      "title": "Knee injection, single-dose vial fully used, separate HTN managed",
+      "playbook_example": "ICD-10",
+      "setting": "office",
+      "edge_case_tags": [
+        "drug_units",
+        "jz",
+        "laterality"
+      ],
+      "gold_review_status": "playbook"
+    }
+  },
+  "ICD10-B": {
+    "query_needed": false,
+    "query_text": "",
+    "codes": [
+      {
+        "code": "INJ1",
+        "system": "CDM",
+        "role": "line",
+        "modifiers": [
+          "RT"
+        ],
+        "units": 1,
+        "evidence": "INJ1: right knee joint injection"
+      },
+      {
+        "code": "J3301",
+        "system": "HCPCS",
+        "role": "line",
+        "modifiers": [],
+        "units": 4,
+        "evidence": "Triamcinolone acetonide 40 mg"
+      },
+      {
+        "code": "M17.11",
+        "system": "ICD-10-CM",
+        "role": "secondary",
+        "evidence": "primary osteoarthritis, right knee",
+        "role_scored": false
+      },
+      {
+        "code": "I10",
+        "system": "ICD-10-CM",
+        "role": "secondary",
+        "evidence": "uncontrolled hypertension",
+        "role_scored": false
+      }
+    ],
+    "scoring": {
+      "optional": [],
+      "forbidden": [],
+      "cdm_lines": [
+        "INJ1"
+      ]
+    },
+    "meta": {
+      "title": "Knee injection from a multi-dose vial",
+      "playbook_example": "ICD-10",
+      "setting": "office",
+      "edge_case_tags": [
+        "multi_dose_no_jw_jz"
+      ],
+      "gold_review_status": "derived"
+    }
+  },
+  "ICD10-C": {
+    "query_needed": false,
+    "query_text": "",
+    "codes": [
+      {
+        "code": "INJ1",
+        "system": "CDM",
+        "role": "line",
+        "modifiers": [
+          "RT"
+        ],
+        "units": 1,
+        "evidence": "INJ1: right knee joint injection"
+      },
+      {
+        "code": "J3301",
+        "system": "HCPCS",
+        "role": "line",
+        "modifiers": [],
+        "units": 4,
+        "evidence": "40 mg administered"
+      },
+      {
+        "code": "J3301",
+        "system": "HCPCS",
+        "role": "line",
+        "modifiers": [
+          "JW"
+        ],
+        "units": 4,
+        "evidence": "remaining 40 mg discarded"
+      },
+      {
+        "code": "M17.11",
+        "system": "ICD-10-CM",
+        "role": "secondary",
+        "evidence": "primary osteoarthritis, right knee",
+        "role_scored": false
+      },
+      {
+        "code": "I10",
+        "system": "ICD-10-CM",
+        "role": "secondary",
+        "evidence": "uncontrolled hypertension",
+        "role_scored": false
+      }
+    ],
+    "scoring": {
+      "optional": [],
+      "forbidden": [],
+      "cdm_lines": [
+        "INJ1"
+      ]
+    },
+    "meta": {
+      "title": "Knee injection, single-dose 80 mg vial, 40 mg discarded",
+      "playbook_example": "ICD-10",
+      "setting": "office",
+      "edge_case_tags": [
+        "jw_wastage"
+      ],
+      "gold_review_status": "derived"
+    }
+  },
+  "ICD10-D": {
+    "query_needed": false,
+    "query_text": "",
+    "codes": [
+      {
+        "code": "INJ1",
+        "system": "CDM",
+        "role": "line",
+        "modifiers": [
+          "RT"
+        ],
+        "units": 1,
+        "evidence": "INJ1: right knee joint injection"
+      },
+      {
+        "code": "J3301",
+        "system": "HCPCS",
+        "role": "line",
+        "modifiers": [
+          "JZ"
+        ],
+        "units": 4,
+        "evidence": "Triamcinolone acetonide 40 mg"
+      },
+      {
+        "code": "M17.11",
+        "system": "ICD-10-CM",
+        "role": "secondary",
+        "evidence": "primary osteoarthritis, right knee",
+        "role_scored": false
+      }
+    ],
+    "scoring": {
+      "optional": [],
+      "forbidden": [
+        "I10"
+      ],
+      "cdm_lines": [
+        "INJ1"
+      ]
+    },
+    "meta": {
+      "title": "Knee injection only, no separate problem",
+      "playbook_example": "ICD-10",
+      "setting": "office",
+      "edge_case_tags": [
+        "no_separate_problem"
+      ],
+      "gold_review_status": "derived"
+    }
+  },
+  "ICD10-E": {
+    "query_needed": false,
+    "query_text": "",
+    "codes": [
+      {
+        "code": "INJ1",
+        "system": "CDM",
+        "role": "line",
+        "modifiers": [
+          "LT"
+        ],
+        "units": 1,
+        "evidence": "INJ1: left knee joint injection"
+      },
+      {
+        "code": "J3301",
+        "system": "HCPCS",
+        "role": "line",
+        "modifiers": [
+          "JZ"
+        ],
+        "units": 8,
+        "evidence": "Triamcinolone acetonide 80 mg"
+      },
+      {
+        "code": "M17.12",
+        "system": "ICD-10-CM",
+        "role": "secondary",
+        "evidence": "primary osteoarthritis, left knee",
+        "role_scored": false
+      }
+    ],
+    "scoring": {
+      "optional": [],
+      "forbidden": [
+        "M17.11",
+        "I10"
+      ],
+      "cdm_lines": [
+        "INJ1"
+      ]
+    },
+    "meta": {
+      "title": "Left knee injection, 80 mg dose",
+      "playbook_example": "ICD-10",
+      "setting": "office",
+      "edge_case_tags": [
+        "laterality_left",
+        "drug_units"
+      ],
+      "gold_review_status": "derived"
+    }
+  }
+}

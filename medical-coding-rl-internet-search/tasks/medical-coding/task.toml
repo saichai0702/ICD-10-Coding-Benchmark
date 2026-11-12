@@ -1,0 +1,37 @@
+schema_version = "1.4"
+# The agent's answer file is copied into the separate verifier container at the same path.
+artifacts = ["/app/output"]
+
+[task]
+name = "medical-coding/icd10-fy2027-internet"
+version = "0.2.0"
+description = "Code 36 synthetic encounters (ICD-10-CM/PCS, HCPCS Level II, no CPT) for billing"
+keywords = ["medical-coding", "icd-10-cm", "icd-10-pcs", "hcpcs", "revenue-cycle"]
+
+[metadata]
+category = "Revenue cycle"
+subcategory = "Medical coding"
+cases = 36
+tags = ["internet-search", "medical-coding", "sepsis", "poa", "provider-query", "laterality", "drug-units", "charge-master"]
+gold_review_status = "playbook + derived; needs CCS/CPC sign-off before training use"
+verification_explanation = "Deterministic, no LLM judge. tests/score.py compares /app/output/coded_claims.json with tests/groundtruth.json case by case (code, role, POA, modifiers, units, evidence quote, extra/known-wrong codes, provider query). A case scores 0 for any invalid/CPT code or a missed required query. Reward = mean case reward (SCORE_MODE=binary: 1 only if all 36 cases are fully correct)."
+
+[agent]
+timeout_sec = 14400.0
+# Internet-search variant: no reference bundle in the image, the agent must fetch the code sets.
+# "public" also keeps the agent's native WebSearch/WebFetch tools enabled.
+network_mode = "public"
+
+[verifier]
+timeout_sec = 300.0
+# Grade in a fresh container built from environment/ (pristine charts for the evidence check),
+# so nothing the agent changed can affect the grader.
+environment_mode = "separate"
+# Grading is offline (score.py + valid_codes.json.gz); no network needed.
+network_mode = "no-network"
+
+[environment]
+build_timeout_sec = 900.0
+cpus = 2
+memory_mb = 4096
+storage_mb = 8192

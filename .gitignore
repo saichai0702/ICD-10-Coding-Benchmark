@@ -1,0 +1,21 @@
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+.venv/
+venv/
+
+# Python caches
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# Harbor job outputs
+jobs/
+
+# Raw CMS downloads (large; re-downloadable from cms.gov)
+medical-coding-rl/data/raw/

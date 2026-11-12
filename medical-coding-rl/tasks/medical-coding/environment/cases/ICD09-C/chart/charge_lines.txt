@@ -1,0 +1,2 @@
+CHARGE LINES (procedure codes come from the hospital charge master)
+PROC1: colonoscopy, diagnostic, units 1

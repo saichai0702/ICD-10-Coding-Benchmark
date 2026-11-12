@@ -1,0 +1,3 @@
+OBSERVATION STAY 10/09/2026 - 10/10/2026 (outpatient observation status)
+45-year-old man. Cough and fever for 3 days. Probable pneumonia. Chest X-ray pending.
+Discharged from observation: probable pneumonia.

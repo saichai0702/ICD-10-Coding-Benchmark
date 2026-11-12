@@ -1,0 +1,8 @@
+{
+  "case_id": "ICD09-D",
+  "setting": "asc",
+  "claim_type": "professional",
+  "service": "2026-10-27",
+  "payer": "Medicare",
+  "code_set": "FY2027 ICD-10-CM/PCS; HCPCS Level II October 2026"
+}

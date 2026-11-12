@@ -1,0 +1,2 @@
+CHARGE LINES (procedure codes come from the hospital charge master)
+PROC1: colonoscopy with snare removal of polyp, units 1

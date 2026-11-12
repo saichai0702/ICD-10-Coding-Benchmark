@@ -1,0 +1,9 @@
+{
+  "case_id": "ICD06-A",
+  "setting": "inpatient",
+  "claim_type": "facility_inpatient",
+  "admit": "2026-10-12",
+  "discharge": "2026-10-17",
+  "payer": "Medicare fee-for-service",
+  "code_set": "FY2027 ICD-10-CM/PCS; HCPCS Level II October 2026"
+}

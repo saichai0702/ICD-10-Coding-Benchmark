@@ -1,0 +1,876 @@
+           ICD-10-PCS Official Guidelines for Coding
+                                 and Reporting
+                                         2027
+
+The Centers for Medicare and Medicaid Services (CMS) and the National Center for
+Health Statistics (NCHS), two departments within the U.S. Federal Government’s
+Department of Health and Human Services (DHHS) provide the following guidelines for
+coding and reporting using the International Classification of Diseases, 10th Revision,
+Procedure Coding System (ICD-10-PCS). These guidelines should be used as a
+companion document to the official version of the ICD-10-PCS as published on the CMS
+website. The ICD-10-PCS is a procedure classification published by the United States for
+classifying procedures performed in hospital inpatient health care settings.
+
+These guidelines have been approved by the four organizations that make up the
+Cooperating Parties for the ICD-10-PCS: the American Hospital Association (AHA), the
+American Health Information Management Association (AHIMA), CMS, and NCHS.
+
+These guidelines are a set of rules that have been developed to accompany and
+complement the official conventions and instructions provided within the ICD-10-PCS
+itself. They are intended to provide direction that is applicable in most
+circumstances. However, there may be unique circumstances where exceptions are
+applied. The instructions and conventions of the classification take precedence over
+guidelines. These guidelines are based on the coding and sequencing instructions in the
+Tables, Index and Definitions of ICD-10-PCS, but provide additional instruction.
+Adherence to these guidelines when assigning ICD-10-PCS procedure codes is required
+under the Health Insurance Portability and Accountability Act (HIPAA). The procedure
+codes have been adopted under HIPAA for hospital inpatient healthcare settings. A joint
+effort between the healthcare provider and the coder is essential to achieve complete and
+accurate documentation, code assignment, and reporting of diagnoses and procedures.
+These guidelines have been developed to assist both the healthcare provider and the coder
+in identifying those procedures that are to be reported. The importance of consistent,
+complete documentation in the medical record cannot be overemphasized. Without such
+documentation accurate coding cannot be achieved.
+
+
+
+
+                                                                                       1
+Table of Contents
+A. Conventions ............................................................................................. 3
+B. Medical and Surgical Section Guidelines ............................................ 5
+       2. Body System................................................................................. 5
+       3. Root Operation ........................................................................... 5
+       4. Body Part ................................................................................... 13
+       5. Approach .................................................................................... 16
+       6. Device ......................................................................................... 17
+C. Obstetrics Section Guidelines .............................................................. 18
+D. Radiation Therapy Guidelines ........................................................... 18
+E. New Technology Section Guidelines ....................................................... 19
+F. Selection of Principal Procedure ........................................................ 20
+
+
+
+
+                                                                                                                 2
+Conventions
+
+A1
+ICD-10-PCS codes are composed of seven characters. Each character is an axis of
+classification that specifies information about the procedure performed. Within a defined
+code range, a character specifies the same type of information in that axis of
+classification.
+Example: The fifth axis of classification specifies the approach in sections 0 through 4
+and 7 through 9 of the system.
+
+A2
+One of 34 possible values can be assigned to each axis of classification in the seven-
+character code: they are the numbers 0 through 9 and the alphabet (except I and O
+because they are easily confused with the numbers 1 and 0). The number of unique values
+used in an axis of classification differs as needed.
+Example: Where the fifth axis of classification specifies the approach, seven different
+approach values are currently used to specify the approach.
+
+A3
+The valid values for an axis of classification can be added to as needed.
+Example: If a significantly distinct type of device is used in a new procedure, a new
+device value can be added to the system.
+
+A4
+As with words in their context, the meaning of any single value is a combination of its
+axis of classification and any preceding values on which it may be dependent.
+Example: The meaning of a body part value in the Medical and Surgical section is always
+dependent on the body system value. The body part value 0 in the Central Nervous body
+system specifies Brain and the body part value 0 in the Peripheral Nervous body system
+specifies Cervical Plexus.
+
+A5
+As the system is expanded to become increasingly detailed, over time more values will
+depend on preceding values for their meaning.
+Example: In the Lower Joints body system, the device value 3 in the root operation
+Insertion specifies Infusion Device and the device value 3 in the root operation
+Replacement specifies Ceramic Synthetic Substitute.
+
+A6
+The purpose of the Alphabetic Index is to locate the appropriate table that contains all
+information necessary to construct a procedure code. The PCS Tables should always be
+consulted to find the most appropriate valid code.
+
+
+
+
+                                                                                           3
+A7
+It is not required to consult the Index first before proceeding to the tables to complete the
+code. A valid code may be chosen directly from the tables.
+
+A8
+All seven characters must be specified to be a valid code. If the documentation is
+incomplete for coding purposes, the physician should be queried for the necessary
+information.
+
+A9
+Within a PCS table, valid codes include all combinations of choices in characters 4
+through 7 contained in the same row of the table. In the example below, 0JHT3VZ is a
+valid code, and 0JHW3VZ is not a valid code.
+
+Section:        0 Medical and Surgical
+Body System: J Subcutaneous Tissue and Fascia
+Operation:      H Insertion: Putting in a nonbiological appliance that monitors, assists, performs,
+or prevents a physiological function but does not physically take the place of a body part
+ Body Part                             Approach             Device                    Qualifier
+ S Subcutaneous Tissue and             0 Open               1 Radioactive Element     Z No
+ Fascia, Head and Neck                 3 Percutaneous       3 Infusion Device         Qualifier
+ V Subcutaneous Tissue and                                  Y Other Device
+ Fascia, Upper Extremity
+ W Subcutaneous Tissue and
+ Fascia, Lower Extremity
+ T Subcutaneous Tissue and             0 Open               1 Radioactive Element     Z No
+ Fascia, Trunk                         3 Percutaneous       3 Infusion Device         Qualifier
+                                                            V Infusion Pump
+                                                            Y Other Device
+
+A10
+“And,” when used in a code description, means “and/or,” except when used to describe a
+combination of multiple body parts for which separate values exist for each body part
+(e.g., Skin and Subcutaneous Tissue used as a qualifier, where there are separate body
+part values for “Skin” and “Subcutaneous Tissue”).
+Example: Lower Arm and Wrist Muscle means lower arm and/or wrist muscle.
+
+A11
+Many of the terms used to construct PCS codes are defined within the system. It is the
+coder’s responsibility to determine what the documentation in the medical record equates
+to in the PCS definitions. The physician is not expected to use the terms used in PCS
+code descriptions, nor is the coder required to query the physician when the correlation
+between the documentation and the defined PCS terms is clear.
+Example: When the physician documents “partial resection” the coder can independently
+correlate “partial resection” to the root operation Excision without querying the physician
+for clarification.
+
+
+
+
+                                                                                                 4
+Medical and Surgical Section Guidelines (section 0)
+B2. Body System
+
+General guidelines
+B2.1a
+The procedure codes in Anatomical Regions, General, Anatomical Regions, Upper
+Extremities and Anatomical Regions, Lower Extremities can be used when the procedure
+is performed on an anatomical region rather than a specific body part, or on the rare
+occasion when no information is available to support assignment of a code to a specific
+body part.
+Examples: Chest tube drainage of the pleural cavity is coded to the root operation
+Drainage found in the body system Anatomical Regions, General.
+Suture repair of the abdominal wall is coded to the root operation Repair in the body
+system Anatomical Regions, General.
+Amputation of the foot is coded to the root operation Detachment in the body system
+Anatomical Regions, Lower Extremities.
+
+B2.1b
+Where the general body part values “upper” and “lower” are provided as an option in the
+Upper Arteries, Lower Arteries, Upper Veins, Lower Veins, Muscles and Tendons body
+systems, “upper” or “lower “specifies body parts located above or below the diaphragm
+respectively.
+Example: Vein body parts above the diaphragm are found in the Upper Veins body
+system; vein body parts below the diaphragm are found in the Lower Veins body system.
+
+
+B3. Root Operation
+
+General guidelines
+B3.1a
+In order to determine the appropriate root operation, the full definition of the root
+operation as contained in the PCS Tables must be applied.
+
+B3.1b
+Components of a procedure specified in the root operation definition or explanation as
+integral to that root operation are not coded separately. Procedural steps necessary to
+reach the operative site and close the operative site, including anastomosis of a tubular
+body part, are also not coded separately.
+Examples: Resection of a joint as part of a joint replacement procedure is included in the
+root operation definition of Replacement and is not coded separately.
+Laparotomy performed to reach the site of an open liver biopsy is not coded separately.
+In a resection of sigmoid colon with anastomosis of descending colon to rectum, the
+anastomosis is not coded separately.
+
+
+
+
+                                                                                         5
+Multiple procedures
+B3.2
+During the same operative episode, multiple procedures are coded if:
+a.      The same root operation is performed on different body parts as defined by
+distinct values of the body part character.
+        Examples: Diagnostic excision of liver and pancreas are coded separately.
+Excision of lesion in the ascending colon and excision of lesion in the transverse colon
+are coded separately.
+b.      The same root operation is repeated in multiple body parts, and those body parts
+are separate and distinct body parts classified to a single ICD-10-PCS body part value.
+        Examples: Excision of the sartorius muscle and excision of the gracilis muscle are
+both included in the upper leg muscle body part value, and multiple procedures are
+coded.
+Extraction of multiple toenails are coded separately.
+c.      Multiple root operations with distinct objectives are performed on the same body
+part.
+        Example: Destruction of sigmoid lesion and bypass of sigmoid colon are coded
+separately.
+d.      The intended root operation is attempted using one approach but is converted to a
+different approach.
+        Example: Laparoscopic cholecystectomy converted to an open cholecystectomy is
+coded as percutaneous endoscopic Inspection and open Resection.
+
+Discontinued or incomplete procedures
+B3.3
+If the intended procedure is discontinued or otherwise not completed (e.g., patient
+expires), code the procedure to the root operation performed. If a procedure is
+discontinued before any other root operation is performed, code the root operation
+Inspection of the body part or anatomical region inspected.
+Example: A planned aortic valve replacement procedure is discontinued after the initial
+thoracotomy and before any incision is made in the heart muscle, when the patient
+becomes hemodynamically unstable. This procedure is coded as an open Inspection of
+the mediastinum.
+
+Biopsy procedures
+B3.4a
+Biopsy procedures are coded using the root operations Excision, Extraction, or Drainage
+and the qualifier Diagnostic.
+Examples: Fine needle aspiration biopsy of fluid in the lung is coded to the root operation
+Drainage with the qualifier Diagnostic.
+Biopsy of bone marrow is coded to the root operation Extraction with the qualifier
+Diagnostic.
+Lymph node sampling (i.e., removal of one or more lymph nodes) for biopsy is coded to
+the root operation Excision with the qualifier Diagnostic.
+
+
+
+
+                                                                                          6
+Biopsy followed by more definitive treatment
+B3.4b
+If a diagnostic Excision, Extraction, or Drainage procedure (i.e., biopsy) is followed by a
+more definitive procedure, such as Destruction, Excision or Resection at the same
+procedure site, both the biopsy and the more definitive treatment are coded.
+Example: Biopsy of breast followed by partial mastectomy at the same procedure site,
+both the biopsy and the partial mastectomy procedure are coded.
+
+Overlapping body layers
+B3.5
+If root operations such as Excision, Extraction, Repair or Inspection are performed on
+overlapping layers of the musculoskeletal system, the body part specifying the deepest
+layer is coded.
+Examples: Excisional debridement that includes skin and subcutaneous tissue and muscle
+is coded to the muscle body part.
+Excisional debridement that includes muscle and tendon is coded to the tendon body part.
+
+Bypass procedures
+B3.6a
+Bypass procedures are coded by identifying the body part bypassed “from” and the body
+part bypassed “to.” The fourth character body part specifies the body part bypassed from,
+and the qualifier specifies the body part bypassed to.
+Example: Bypass from stomach to jejunum, stomach is the body part and jejunum is the
+qualifier.
+
+B3.6b
+Coronary artery bypass procedures are coded differently than other bypass procedures as
+described in the previous guideline. Rather than identifying the body part bypassed from,
+the body part identifies the number of coronary arteries bypassed to, and the qualifier
+specifies the vessel bypassed from.
+Example: Aortocoronary artery bypass of the left anterior descending coronary artery and
+the obtuse marginal coronary artery is classified in the body part axis of classification as
+two coronary arteries, and the qualifier specifies the aorta as the body part bypassed from.
+
+B3.6c
+If multiple coronary arteries are bypassed, a separate procedure is coded for each
+coronary artery that uses a different device and/or qualifier.
+Example: Aortocoronary artery bypass and internal mammary coronary artery bypass are
+coded separately.
+
+Control vs. more specific root operations
+B3.7
+The root operation Control is defined as, “Stopping, or attempting to stop, postprocedural
+or other acute bleeding.” Control is the root operation coded when the procedure
+performed to achieve hemostasis, beyond what would be considered integral to a
+procedure, utilizes techniques (e.g., cautery, application of substances or pressure,
+suturing or ligation or clipping of bleeding points at the site) that are not described by a
+
+                                                                                          7
+more specific root operation definition, such as Bypass, Detachment, Excision,
+Extraction, Reposition, Replacement, or Resection. If a more specific root operation
+definition applies to the procedure performed, then the more specific root operation is
+coded instead of Control.
+
+Example: Silver nitrate cautery to treat acute nasal bleeding is coded to the root operation
+Control.
+Example: Liquid embolization of the right internal iliac artery to treat acute hematoma by
+stopping blood flow is coded to the root operation Occlusion.
+Example: Suctioning of residual blood to achieve hemostasis during a transbronchial
+cryobiopsy is considered integral to the cryobiopsy procedure and is not coded
+separately.
+
+Excision vs. Resection
+B3.8
+PCS contains specific body parts for anatomical subdivisions of a body part, such as
+lobes of the lungs or liver and regions of the intestine. Resection of the specific body part
+is coded whenever all of the body part is cut out or off, rather than coding Excision of a
+less specific body part.
+Example: Left upper lung lobectomy is coded to Resection of Upper Lung Lobe, Left
+rather than Excision of Lung, Left.
+
+Excision for graft
+B3.9
+If an autograft is obtained from a different procedure site in order to complete the
+objective of the procedure, a separate procedure is coded, except when the seventh
+character qualifier value in the ICD-10-PCS table fully specifies the site from which the
+autograft was obtained.
+Examples: Coronary bypass with excision of saphenous vein graft, excision of saphenous
+vein is coded separately.
+Replacement of breast with autologous deep inferior epigastric artery perforator (DIEP)
+flap, excision of the DIEP flap is not coded separately. The seventh character qualifier
+value Deep Inferior Epigastric Artery Perforator Flap in the Replacement table fully
+specifies the site of the autograft harvest.
+
+Fusion procedures of the spine
+B3.10a
+The body part coded for a spinal vertebral joint(s) rendered immobile by a spinal fusion
+procedure is classified by the level of the spine (e.g., thoracic). There are distinct body
+part values for a single vertebral joint and for multiple vertebral joints at each spinal
+level.
+Example: Body part values specify Lumbar Vertebral Joint, Lumbar Vertebral Joints, 2 or
+More and Lumbosacral Vertebral Joint.
+
+
+
+
+                                                                                           8
+B3.10b
+If multiple vertebral joints are fused, a separate procedure is coded for each vertebral
+joint that uses a different device and/or qualifier.
+Example: Fusion of lumbar vertebral joint, posterior approach, anterior column and
+fusion of lumbar vertebral joint, posterior approach, posterior column are coded
+separately.
+
+B3.10c
+Combinations of devices and materials are often used on a vertebral joint to render the
+joint immobile. When combinations of devices are used on the same vertebral joint, the
+device value coded for the procedure is as follows:
+    • If an interbody fusion device is used to render the joint immobile (containing
+        bone graft or bone graft substitute), the procedure is coded with the device value
+        Interbody Fusion Device
+    • If bone graft is the only device used to render the joint immobile, the procedure is
+        coded with the device value Nonautologous Tissue Substitute or Autologous
+        Tissue Substitute
+    • If a mixture of autologous and nonautologous bone graft (with or without
+        biological or synthetic extenders or binders) is used to render the joint immobile,
+        code the procedure with the device value Autologous Tissue Substitute
+Examples: Fusion of a vertebral joint using a cage style interbody fusion device
+containing morsellized bone graft is coded to the device Interbody Fusion Device.
+Fusion of a vertebral joint using a bone dowel interbody fusion device made of cadaver
+bone and packed with a mixture of local morsellized bone and demineralized bone matrix
+is coded to the device Interbody Fusion Device.
+Fusion of a vertebral joint using both autologous bone graft and bone bank bone graft is
+coded to the device Autologous Tissue Substitute.
+
+Inspection procedures
+B3.11a
+Inspection of a body part(s) performed in order to achieve the objective of a procedure is
+not coded separately.
+Example: Fiberoptic bronchoscopy performed for irrigation of bronchus, only the
+irrigation procedure is coded.
+
+B3.11b
+If multiple tubular body parts are inspected, the most distal body part (the body part
+furthest from the starting point of the inspection) is coded. If multiple non-tubular body
+parts in a region are inspected, the body part that specifies the entire area inspected is
+coded.
+Examples: Cystoureteroscopy with inspection of bladder and ureters is coded to the ureter
+body part value.
+Exploratory laparotomy with general inspection of abdominal contents is coded to the
+peritoneal cavity body part value.
+
+
+
+
+                                                                                           9
+B3.11c
+When both an Inspection procedure and another procedure are performed on the same
+body part during the same episode, if the Inspection procedure is performed using a
+different approach than the other procedure, the Inspection procedure is coded separately.
+Example: Endoscopic Inspection of the duodenum is coded separately when open
+Excision of the duodenum is performed during the same procedural episode.
+
+Occlusion vs. Restriction for vessel embolization procedures
+B3.12
+If the objective of an embolization procedure is to completely close a vessel, the root
+operation Occlusion is coded. If the objective of an embolization procedure is to narrow
+the lumen of a vessel, the root operation Restriction is coded.
+Examples: Tumor embolization is coded to the root operation Occlusion, because the
+objective of the procedure is to cut off the blood supply to the vessel.
+Embolization of a cerebral aneurysm is coded to the root operation Restriction, because
+the objective of the procedure is not to close off the vessel entirely, but to narrow the
+lumen of the vessel at the site of the aneurysm where it is abnormally wide.
+
+Release procedures
+B3.13
+In the root operation Release, the body part value coded is the body part being freed and
+not the tissue being manipulated or cut to free the body part.
+Example: Lysis of intestinal adhesions is coded to the specific intestine body part value.
+
+Release vs. Division
+B3.14
+If the sole objective of the procedure is freeing a body part without cutting the body part,
+the root operation is Release. If the sole objective of the procedure is separating or
+transecting a body part, the root operation is Division.
+Examples: Freeing a nerve root from surrounding scar tissue to relieve pain is coded to
+the root operation Release.
+Severing a nerve root to relieve pain is coded to the root operation Division.
+
+Reposition for fracture treatment
+B3.15
+Reduction of a displaced fracture is coded to the root operation Reposition and the
+application of a cast or splint in conjunction with the Reposition procedure is not coded
+separately. Treatment of a nondisplaced fracture is coded to the procedure performed.
+Examples: Casting of a nondisplaced fracture is coded to the root operation
+Immobilization in the Placement section.
+Putting a pin in a nondisplaced fracture is coded to the root operation Insertion.
+
+
+
+
+                                                                                            10
+Transplantation vs. Administration
+B3.16
+Putting in a mature and functioning living body part taken from another individual or
+animal is coded to the root operation Transplantation. Putting in autologous or
+nonautologous cells is coded to the Administration section.
+Example: Putting in autologous or nonautologous bone marrow, pancreatic islet cells or
+stem cells is coded to the Administration section.
+
+Transfer procedures using multiple tissue layers
+B3.17
+The root operation Transfer contains qualifiers that can be used to specify when a transfer
+flap is composed of more than one tissue layer, such as a musculocutaneous flap. For
+procedures involving transfer of multiple tissue layers including skin, subcutaneous
+tissue, fascia or muscle, the procedure is coded to the body part value that describes the
+deepest tissue layer in the flap, and the qualifier can be used to describe the other tissue
+layer(s) in the transfer flap.
+Example: A musculocutaneous flap transfer is coded to the appropriate body part value in
+the body system Muscles, and the qualifier is used to describe the additional tissue
+layer(s) in the transfer flap.
+
+Excision/Resection followed by replacement
+B3.18
+If an excision or resection of a body part is followed by a replacement procedure, code
+both procedures to identify each distinct objective, except when the excision or resection
+is considered integral and preparatory for the replacement procedure.
+
+Examples: Mastectomy followed by reconstruction, both resection and replacement of the
+breast are coded to fully capture the distinct objectives of the procedures performed.
+Maxillectomy with obturator reconstruction, both excision and replacement of the
+maxilla are coded to fully capture the distinct objectives of the procedures performed.
+Excisional debridement of tendon with skin graft, both the excision of the tendon and the
+replacement of the skin with a graft are coded to fully capture the distinct objectives of
+the procedures performed. Esophagectomy followed by reconstruction with colonic
+interposition, both the resection and the transfer of the large intestine to function as the
+esophagus are coded to fully capture the distinct objectives of the procedures performed.
+Examples: Resection of a joint as part of a joint replacement procedure is considered
+integral and preparatory for the replacement of the joint and the resection is not coded
+separately. Resection of a valve as part of a valve replacement procedure is considered
+integral and preparatory for the valve replacement and the resection is not coded
+separately.
+
+Detachment procedures of extremities
+B3.19
+The root operation Detachment contains qualifiers that can be used to specify the level
+where the extremity was amputated. These qualifiers are dependent on the body part
+value in the “upper extremities” and “lower extremities” body systems. For procedures
+
+
+
+                                                                                          11
+involving the detachment of all or part of the upper or lower extremities, the procedure is
+coded to the body part value that describes the site of the detachment.
+Example: An amputation at the proximal portion of the shaft of the tibia and fibula is
+coded to the Lower leg body part value in the body system Anatomical Regions, Lower
+Extremities, and the qualifier High is used to specify the level where the extremity was
+detached.
+
+The following definitions were developed for the Detachment qualifiers
+
+ Body Part                   Qualifier Definition
+ Upper arm and upper leg     1         High: Amputation at the proximal portion of the
+                                       shaft of the humerus or femur
+                             2         Mid: Amputation at the middle portion of the
+                                       shaft of the humerus or femur
+                             3         Low: Amputation at the distal portion of the
+                                       shaft of the humerus or femur
+ Lower arm and lower         1         High: Amputation at the proximal portion of the
+ leg                                   shaft of the radius/ulna or tibia/fibula
+                             2         Mid: Amputation at the middle portion of the
+                                       shaft of the radius/ulna or tibia/fibula
+                             3         Low: Amputation at the distal portion of the
+                                       shaft of the radius/ulna or tibia/fibula
+ Hand and Foot               0         Complete*
+                             4         Complete 1st Ray
+                             5         Complete 2nd Ray
+                             6         Complete 3rd Ray
+                             7         Complete 4th Ray
+                             8         Complete 5th Ray
+                             9         Partial 1st Ray
+                             B         Partial 2nd Ray
+                             C         Partial 3rd Ray
+                             D         Partial 4th Ray
+                             F         Partial 5th Ray
+ Thumb, finger, or toe       0         Complete: Amputation at the
+                                       metacarpophalangeal/metatarsal-phalangeal
+                                       joint
+                             1         High: Amputation anywhere along the proximal
+                                       phalanx
+                             2         Mid: Amputation through the proximal
+                                       interphalangeal joint or anywhere along the
+                                       middle phalanx
+                             3         Low: Amputation through the distal
+                                       interphalangeal joint or anywhere along the
+                                       distal phalanx
+
+*When coding amputation of Hand and Foot, the following definitions are followed:
+
+
+                                                                                         12
+    •   Complete: Amputation through the carpometacarpal joint of the hand, or through
+        the tarsal-metatarsal joint of the foot.
+    •   Partial: Amputation anywhere along the shaft or head of the metacarpal bone of
+        the hand, or of the metatarsal bone of the foot.
+
+B4. Body Part
+
+General guidelines
+B4.1a
+If a procedure is performed on a portion of a body part that does not have a separate body
+part value, code the body part value corresponding to the whole body part.
+Example: A procedure performed on the alveolar process of the mandible is coded to the
+mandible body part.
+
+B4.1b
+If the prefix “peri” is combined with a body part to identify the site of the procedure, and
+the site of the procedure is not further specified, then the procedure is coded to the body
+part named. This guideline applies only when a more specific body part value is not
+available.
+Examples: A procedure site identified as perirenal is coded to the kidney body part when
+the site of the procedure is not further specified.
+A procedure site described in the documentation as peri-urethral, and the documentation
+also indicates that it is the vulvar tissue and not the urethral tissue that is the site of the
+procedure, then the procedure is coded to the vulva body part.
+A procedure site documented as involving the periosteum is coded to the corresponding
+bone body part.
+
+B4.1c
+If a single vascular procedure is performed on a continuous section of an arterial or
+venous body part, code the body part value corresponding to the anatomically most
+proximal (closest to the heart) portion of the arterial or venous body part.
+Example: A procedure performed on a continuous section of artery from the femoral
+artery to the external iliac artery with the point of entry at the femoral artery is coded to
+the external iliac body part. A procedure performed on a continuous section of artery
+from the femoral artery to the external iliac artery with the point of entry at the external
+iliac artery is also coded to the external iliac artery body part.
+
+Branches of body parts
+B4.2
+Where a specific branch of a body part does not have its own body part value in PCS, the
+body part is typically coded to the closest proximal branch that has a specific body part
+value. In the cardiovascular body systems, if a general body part is available in the
+correct root operation table, and coding to a proximal branch would require assigning a
+code in a different body system, the procedure is coded using the general body part value.
+Examples: A procedure performed on the mandibular branch of the trigeminal nerve is
+coded to the trigeminal nerve body part value.
+
+
+                                                                                                13
+Occlusion of the bronchial artery is coded to the body part value Upper Artery in the
+body system Upper Arteries, and not to the body part value Thoracic Aorta, Descending
+in the body system Heart and Great Vessels.
+
+Bilateral body part values
+B4.3
+Bilateral body part values are available for a limited number of body parts. If the identical
+procedure is performed on contralateral body parts, and a bilateral body part value exists
+for that body part, a single procedure is coded using the bilateral body part value. If no
+bilateral body part value exists, each procedure is coded separately using the appropriate
+body part value.
+Examples: The identical procedure performed on both fallopian tubes is coded once using
+the body part value Fallopian Tube, Bilateral.
+The identical procedure performed on both knee joints is coded twice using the body part
+values Knee Joint, Right and Knee Joint, Left.
+
+Coronary arteries
+B4.4
+The coronary arteries are classified as a single body part that is further specified by the
+number of arteries treated. One procedure code specifying multiple arteries is used when
+the same procedure is performed, including the same device and qualifier values.
+Examples: Angioplasty of two distinct coronary arteries with placement of two stents is
+coded as Dilation of Coronary Artery, Two Arteries with Two Intraluminal Devices.
+Angioplasty of two distinct coronary arteries, one with stent placed and one without, is
+coded separately as Dilation of Coronary Artery, One Artery with Intraluminal Device,
+and Dilation of Coronary Artery, One Artery with no device.
+
+Tendons, ligaments, bursae and fascia near a joint
+B4.5
+Procedures performed on tendons, ligaments, bursae and fascia supporting a joint are
+coded to the body part in the respective body system that is the focus of the procedure.
+Procedures performed on joint structures themselves are coded to the body part in the
+joint body systems.
+Examples: Repair of the anterior cruciate ligament of the knee is coded to the knee bursa
+and ligament body part in the bursae and ligaments body system.
+Knee arthroscopy with shaving of articular cartilage is coded to the knee joint body part
+in the Lower Joints body system.
+
+Skin, subcutaneous tissue and fascia overlying a joint
+B4.6
+If a procedure is performed on the skin, subcutaneous tissue or fascia overlying a joint,
+the procedure is coded to the following body part:
+     • Shoulder is coded to Upper Arm
+     • Elbow is coded to Lower Arm
+     • Wrist is coded to Lower Arm
+     • Hip is coded to Upper Leg
+
+
+                                                                                            14
+   •   Knee is coded to Lower Leg
+   •   Ankle is coded to Foot
+
+Fingers and toes
+B4.7
+If a body system does not contain a separate body part value for fingers, procedures
+performed on the fingers are coded to the body part value for the hand. If a body system
+does not contain a separate body part value for toes, procedures performed on the toes are
+coded to the body part value for the foot.
+Example: Excision of finger muscle is coded to one of the hand muscle body part values
+in the Muscles body system.
+
+Upper and lower intestinal tract
+B4.8
+In the Gastrointestinal body system, the general body part values Upper Intestinal Tract
+and Lower Intestinal Tract are provided as an option for the root operations such as
+Change, Insertion, Inspection, Removal and Revision. Upper Intestinal Tract includes the
+portion of the gastrointestinal tract from the esophagus down to and including the
+duodenum, and Lower Intestinal Tract includes the portion of the gastrointestinal tract
+from the jejunum down to and including the rectum and anus.
+Example: In the root operation Change table, change of a device in the jejunum is coded
+using the body part Lower Intestinal Tract.
+
+
+
+
+                                                                                        15
+B5. Approach
+
+Open approach with percutaneous endoscopic assistance
+B5.2a
+Procedures performed using the open approach with percutaneous endoscopic assistance
+are coded to the approach Open.
+Example: Laparoscopic-assisted sigmoidectomy is coded to the approach Open.
+
+Percutaneous endoscopic approach with hand-assistance or extension of incision
+B5.2b
+Procedures performed using the percutaneous endoscopic approach with hand-assistance,
+or with an incision or extension of an incision to assist in the removal of all or a portion
+of a body part, or to anastomose a tubular body part with or without the temporary
+exteriorization of a body structure, are coded to the approach value Percutaneous
+Endoscopic.
+Examples: Hand-assisted laparoscopic sigmoid colon resection with exteriorization of a
+segment of the colon for removal of specimen with return of colon back into abdominal
+cavity is coded to the approach value percutaneous endoscopic.
+Laparoscopic sigmoid colectomy with extension of stapling port for removal of specimen
+and direct anastomosis is coded to the approach value percutaneous endoscopic.
+Laparoscopic nephrectomy with midline incision for removing the resected kidney is
+coded to the approach value percutaneous endoscopic.
+Robotic-assisted laparoscopic prostatectomy with extension of incision for removal of the
+resected prostate is coded to the approach value percutaneous endoscopic.
+
+External approach
+B5.3a
+Procedures performed within an orifice on structures that are visible without the aid of
+any instrumentation are coded to the approach External.
+Example: Resection of tonsils is coded to the approach External.
+
+B5.3b
+Procedures performed indirectly by the application of external force through the
+intervening body layers are coded to the approach External.
+Example: Closed reduction of fracture is coded to the approach External.
+
+Percutaneous procedure via device
+B5.4
+Procedures performed percutaneously via a device placed for the procedure are coded to
+the approach Percutaneous.
+Example: Fragmentation of kidney stone performed via percutaneous nephrostomy is
+coded to the approach Percutaneous.
+
+
+
+
+                                                                                           16
+B6. Device
+
+General guidelines
+B6.1a
+A device is coded only if a device remains after the procedure is completed. If no device
+remains, the device value No Device is coded. In limited root operations, the
+classification provides the qualifier values Temporary and Intraoperative, for specific
+procedures involving clinically significant devices, where the purpose of the device is to
+be utilized for a brief duration during the procedure or current inpatient stay. If a device
+that is intended to remain after the procedure is completed requires removal before the
+end of the operative episode in which it was inserted, both the insertion and removal of
+the device should be coded.
+
+B6.1b
+Materials such as sutures, ligatures, radiological markers and temporary post-operative
+wound drains are considered integral to the performance of a procedure and are not coded
+as devices.
+
+B6.1c
+Procedures performed on a device only and not on a body part are specified in the root
+operations Change, Irrigation, Removal and Revision, and are coded to the procedure
+performed.
+Example: Irrigation of percutaneous nephrostomy tube is coded to the root operation
+Irrigation of indwelling device in the Administration section.
+
+Drainage device
+B6.2
+A separate procedure to put in a drainage device is coded to the root operation Drainage
+with the device value Drainage Device.
+
+
+
+
+                                                                                           17
+Obstetric Section Guidelines (section 1)
+C. Obstetrics Section
+
+Products of conception
+C1
+Procedures performed on the products of conception are coded to the Obstetrics
+section. Procedures performed on the pregnant female other than the products of
+conception are coded to the appropriate root operation in the Medical and Surgical
+section.
+Example: Amniocentesis is coded to the products of conception body part in the
+Obstetrics section. Repair of obstetric urethral laceration is coded to the urethra body part
+in the Medical and Surgical section.
+
+Procedures following delivery or abortion
+C2
+Procedures performed following a delivery or abortion for curettage of the endometrium
+or evacuation of retained products of conception are all coded in the Obstetrics section, to
+the root operation Extraction and the body part Products of Conception, Retained.
+Diagnostic or therapeutic dilation and curettage performed during times other than the
+postpartum or post-abortion period are all coded in the Medical and Surgical section, to
+the root operation Extraction and the body part Endometrium.
+
+
+Radiation Therapy Section Guidelines (section D)
+
+
+D. Radiation Therapy Section
+
+Brachytherapy
+D1.a
+Brachytherapy is coded to the modality Brachytherapy in the Radiation Therapy section.
+When a radioactive brachytherapy source is left in the body at the end of the procedure, it
+is coded separately to the root operation Insertion with the device value Radioactive
+Element.
+Example: Brachytherapy with implantation of a low dose rate brachytherapy source left
+in the body at the end of the procedure is coded to the applicable treatment site in section
+D, Radiation Therapy, with the modality Brachytherapy, the modality qualifier value
+Low Dose Rate, and the applicable isotope value and qualifier value. The implantation of
+the brachytherapy source is coded separately to the device value Radioactive Element in
+the appropriate Insertion table of the Medical and Surgical section. The Radiation
+Therapy section code identifies the specific modality and isotope of the brachytherapy,
+and the root operation Insertion code identifies the implantation of the brachytherapy
+source that remains in the body at the end of the procedure.
+
+
+
+
+                                                                                           18
+Exceptions: Implantation of Cesium-131 brachytherapy seeds embedded in a collagen
+matrix to the treatment site after resection of brain tumor is coded to the root operation
+Insertion with the device value Radioactive Element, Cesium-131 Collagen Implant.
+Similarly, implantation of Palladium-103 brachytherapy seeds embedded in a collagen
+matrix to the treatment site after resection of brain tumor is coded to the root operation
+Insertion with the device value Radioactive Element, Palladium-103 Collagen Implant.
+These procedures are coded to the root operation Insertion only, because the device value
+identifies both the implantation of the radioactive element and a specific brachytherapy
+isotope.
+
+D1.b
+A separate procedure to place a temporary applicator for delivering the brachytherapy is
+coded to the root operation Insertion and the device value Other Device.
+Examples: Intrauterine brachytherapy applicator placed as a separate procedure from the
+brachytherapy procedure is coded to Insertion of Other Device, and the brachytherapy is
+coded separately using the modality Brachytherapy in the Radiation Therapy section.
+Intrauterine brachytherapy applicator placed concomitantly with delivery of the
+brachytherapy dose is coded with a single code using the modality Brachytherapy in the
+Radiation Therapy section.
+
+
+
+New Technology Section Guidelines (section X)
+E. New Technology Section
+
+General guidelines
+E1.a
+Section X codes fully represent the specific procedure described in the code title, and do
+not require additional codes from other sections of ICD-10-PCS. When section X
+contains a code title which fully describes a specific new technology procedure, and it is
+the only procedure performed, only the section X code is reported for the procedure.
+There is no need to report an additional code from another section of ICD-10-PCS.
+Example: XW033CA Introduction of zanidatamab antineoplastic into peripheral vein,
+percutaneous approach, new technology group 10, should be assigned to indicate that
+zanidatamab antineoplastic was administered via a peripheral vein. A separate code
+from table 3E0 in the Administration section of ICD-10-PCS is not coded in addition to
+this code.
+
+E1.b
+When multiple procedures are performed, New Technology section X codes are assigned
+following the multiple procedures guideline.
+Examples: To identify the division of aortic valve leaflets using radiofrequency energy
+during a valve-in-valve transcatheter aortic valve replacement (TAVR), code X28F3WB
+Division of aortic valve using leaflet laceration, radiofrequency energy, percutaneous
+approach, new technology group 11, is assigned along with a separate code for the TAVR
+procedure.
+To identify the administration of eladocagene exuparvovec-tneq using a temporary infusion
+                                                                                         19
+device, code XW0Q316, Introduction of eladocagene exuparvovec into cranial cavity and
+brain, percutaneous approach, new technology group 6, is assigned along with a separate
+code to identify the insertion of the temporary infusion device.
+
+F. Selection of Principal Procedure
+
+The following instructions should be applied in the selection of principal procedure and
+clarification on the importance of the relation to the principal diagnosis when more than
+one procedure is performed:
+  1. Procedure performed for definitive treatment of both principal diagnosis and
+secondary diagnosis
+        a. Sequence procedure performed for definitive treatment most related to principal
+        diagnosis as principal procedure.
+  2. Procedure performed for definitive treatment and diagnostic procedures performed
+for both principal diagnosis and secondary diagnosis.
+        a. Sequence procedure performed for definitive treatment most related to principal
+        diagnosis as principal procedure
+  3. A diagnostic procedure was performed for the principal diagnosis and a procedure is
+performed for definitive treatment of a secondary diagnosis.
+        a. Sequence diagnostic procedure as principal procedure, since the procedure most
+        related to the principal diagnosis takes precedence.
+  4. No procedures performed that are related to principal diagnosis; procedures
+performed for definitive treatment and diagnostic procedures were performed for
+secondary diagnosis
+        a. Sequence procedure performed for definitive treatment of secondary diagnosis
+        as principal procedure, since there are no procedures (definitive or nondefinitive
+        treatment) related to principal diagnosis.
+
+
+
+
+                                                                                       20
+

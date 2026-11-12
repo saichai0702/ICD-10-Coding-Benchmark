@@ -1,0 +1,4 @@
+__pycache__/
+# Offline reference desk from the original task: keep it out of the build context.
+codetools.py
+reference.tar.gz

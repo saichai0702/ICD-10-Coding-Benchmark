@@ -1,0 +1,1091 @@
+column_1,column_2,effective_date,modifier_indicator,rationale
+A9500,A9512,20100701,1,Misuse of Column Two code with Column One code
+A9501,A9512,20100701,0,Misuse of Column Two code with Column One code
+A9502,A9512,20100701,0,Misuse of Column Two code with Column One code
+A9503,A9512,20100701,0,Misuse of Column Two code with Column One code
+A9504,A9512,20100701,0,Misuse of Column Two code with Column One code
+A9510,A9512,20100701,0,Misuse of Column Two code with Column One code
+A9521,A9512,20100701,0,Misuse of Column Two code with Column One code
+A9536,A9512,20100701,0,Misuse of Column Two code with Column One code
+A9537,A9512,20100701,0,Misuse of Column Two code with Column One code
+A9538,A9512,20100701,0,Misuse of Column Two code with Column One code
+A9539,A9512,20100701,0,Misuse of Column Two code with Column One code
+A9540,A9512,20100701,1,Misuse of Column Two code with Column One code
+A9541,A9512,20100701,1,Misuse of Column Two code with Column One code
+A9550,A9512,20100701,0,Misuse of Column Two code with Column One code
+A9551,A9512,20100701,0,Misuse of Column Two code with Column One code
+A9557,A9512,20100701,0,Misuse of Column Two code with Column One code
+A9560,A9512,20100701,0,Misuse of Column Two code with Column One code
+A9561,A9512,20100701,0,Misuse of Column Two code with Column One code
+A9562,A9512,20100701,0,Misuse of Column Two code with Column One code
+A9566,A9512,20100701,0,Misuse of Column Two code with Column One code
+A9567,A9512,20100701,0,Misuse of Column Two code with Column One code
+A9568,A9512,20100701,0,Misuse of Column Two code with Column One code
+A9569,A9512,20100701,0,Misuse of Column Two code with Column One code
+C8906,C8903,20060701,1,HCPCS/CPT procedure code definition
+C8906,C8905,20060701,1,HCPCS/CPT procedure code definition
+C8908,C8903,20060701,1,HCPCS/CPT procedure code definition
+C8908,C8905,20060701,1,HCPCS/CPT procedure code definition
+C8921,C8922,20080701,1,More extensive procedure
+C8923,C8924,20080701,1,More extensive procedure
+C8923,C8929,20100101,0,More extensive procedure
+C8928,C8923,20080701,1,Mutually exclusive procedures
+C8928,C8924,20080701,1,Mutually exclusive procedures
+C8928,C8925,20080701,1,Mutually exclusive procedures
+C8928,C8927,20080701,0,Mutually exclusive procedures
+C8928,C8929,20100101,1,Mutually exclusive procedures
+C8928,C8930,20100101,0,More extensive procedure
+C8929,C8924,20100101,1,Misuse of Column Two code with Column One code
+C8930,C8929,20100101,1,HCPCS/CPT procedure code definition
+C8931,C8932,20110701,0,HCPCS/CPT procedure code definition
+C8931,J1642,20110701,1,Misuse of Column Two code with Column One code
+C8932,J1642,20110701,1,Misuse of Column Two code with Column One code
+C8933,C8931,20110701,0,HCPCS/CPT procedure code definition
+C8933,C8932,20110701,0,HCPCS/CPT procedure code definition
+C8933,J1642,20110701,1,Misuse of Column Two code with Column One code
+C8934,C8935,20110701,0,HCPCS/CPT procedure code definition
+C8934,J1642,20110701,1,Misuse of Column Two code with Column One code
+C8935,J1642,20110701,1,Misuse of Column Two code with Column One code
+C8936,C8934,20110701,0,HCPCS/CPT procedure code definition
+C8936,C8935,20110701,0,HCPCS/CPT procedure code definition
+C8936,J1642,20110701,1,Misuse of Column Two code with Column One code
+C8957,G0463,20140701,1,Misuse of Column Two code with Column One code
+C9600,G0269,20130701,1,CPT Manual or CMS manual coding instruction
+C9600,G0471,20150701,1,Standards of medical/surgical practice
+C9601,G0269,20130701,1,CPT Manual or CMS manual coding instruction
+C9601,G0471,20150701,1,Standards of medical/surgical practice
+C9602,G0269,20130701,1,CPT Manual or CMS manual coding instruction
+C9602,G0471,20150701,1,Standards of medical/surgical practice
+C9603,G0269,20130701,1,CPT Manual or CMS manual coding instruction
+C9603,G0471,20150701,1,Standards of medical/surgical practice
+C9604,G0269,20130701,1,CPT Manual or CMS manual coding instruction
+C9604,G0471,20150701,1,Standards of medical/surgical practice
+C9605,G0269,20130701,1,CPT Manual or CMS manual coding instruction
+C9605,G0471,20150701,1,Standards of medical/surgical practice
+C9606,G0269,20130701,1,CPT Manual or CMS manual coding instruction
+C9606,G0471,20150701,1,Standards of medical/surgical practice
+C9607,G0269,20130701,1,CPT Manual or CMS manual coding instruction
+C9607,G0471,20150701,1,Standards of medical/surgical practice
+C9608,G0269,20130701,1,CPT Manual or CMS manual coding instruction
+C9608,G0471,20150701,1,Standards of medical/surgical practice
+C9738,G0463,20180701,1,CPT Manual or CMS manual coding instruction
+C9738,G0471,20180701,0,CPT Manual or CMS manual coding instruction
+C9738,P9612,20180701,0,Standards of medical/surgical practice
+C9739,G0463,20141001,1,CPT Manual or CMS manual coding instruction
+C9739,G0471,20150701,0,CPT Manual or CMS manual coding instruction
+C9739,P9612,20141001,0,Standards of medical/surgical practice
+C9740,C9739,20141001,0,HCPCS/CPT procedure code definition
+C9740,G0463,20141001,1,CPT Manual or CMS manual coding instruction
+C9740,G0471,20150701,0,CPT Manual or CMS manual coding instruction
+C9740,P9612,20141001,0,Standards of medical/surgical practice
+C9761,G0463,20220701,1,CPT Manual or CMS manual coding instruction
+C9761,G0471,20220701,0,CPT Manual or CMS manual coding instruction
+C9761,P9612,20220701,1,Standards of medical/surgical practice
+C9765,C9764,20230101,1,Mutually exclusive procedures
+C9766,C9764,20230101,1,Mutually exclusive procedures
+C9767,C9764,20230101,1,Mutually exclusive procedures
+C9767,C9765,20230101,1,Mutually exclusive procedures
+C9767,C9766,20230101,1,Mutually exclusive procedures
+C9773,C9772,20211001,1,Mutually exclusive procedures
+C9773,C9774,20211001,1,Mutually exclusive procedures
+C9773,C9775,20211001,1,Mutually exclusive procedures
+C9774,C9772,20211001,1,Mutually exclusive procedures
+C9774,C9775,20211001,1,Mutually exclusive procedures
+C9775,C9772,20211001,1,Mutually exclusive procedures
+C9778,G0463,20220701,1,CPT Manual or CMS manual coding instruction
+C9778,G0471,20220701,0,Standards of medical/surgical practice
+C9796,G0181,20251001,1,CPT Manual or CMS manual coding instruction
+C9796,G0182,20251001,1,CPT Manual or CMS manual coding instruction
+C9796,G0463,20250701,1,CPT Manual or CMS manual coding instruction
+C9796,G0471,20250701,1,Misuse of Column Two code with Column One code
+C9797,G0181,20251001,0,CPT Manual or CMS manual coding instruction
+C9797,G0182,20251001,0,CPT Manual or CMS manual coding instruction
+C9797,G0463,20250701,1,CPT Manual or CMS manual coding instruction
+C9797,G0471,20251001,1,Misuse of Column Two code with Column One code
+C9797,J0670,20251001,1,Misuse of Column Two code with Column One code
+C9797,J1642,20251001,1,Misuse of Column Two code with Column One code
+C9797,J1644,20251001,1,Misuse of Column Two code with Column One code
+C9901,G0463,20260401,1,CPT Manual or CMS manual coding instruction
+C9901,G0471,20260401,1,Misuse of Column Two code with Column One code
+E0781,E0782,19960101,1,Mutually exclusive procedures
+G0101,G0181,20020401,1,Standards of medical/surgical practice
+G0101,G0182,20020401,1,Standards of medical/surgical practice
+G0101,G0380,20081001,1,Standards of medical/surgical practice
+G0101,G0381,20081001,1,Standards of medical/surgical practice
+G0101,G0382,20081001,1,Standards of medical/surgical practice
+G0101,G0383,20081001,1,Standards of medical/surgical practice
+G0101,G0384,20081001,1,Standards of medical/surgical practice
+G0101,G0406,20201001,1,Standards of medical/surgical practice
+G0101,G0407,20201001,1,Standards of medical/surgical practice
+G0101,G0408,20201001,1,Standards of medical/surgical practice
+G0101,G0425,20201001,1,Standards of medical/surgical practice
+G0101,G0426,20201001,1,Standards of medical/surgical practice
+G0101,G0427,20201001,1,Standards of medical/surgical practice
+G0101,G0463,20140701,1,Standards of medical/surgical practice
+G0101,G0508,20201001,1,Standards of medical/surgical practice
+G0101,G0509,20201001,1,Standards of medical/surgical practice
+G0104,G0105,19980401,0,Mutually exclusive procedures
+G0104,G0121,20020401,0,Mutually exclusive procedures
+G0104,G0181,20020401,1,Standards of medical/surgical practice
+G0104,G0182,20020401,1,Standards of medical/surgical practice
+G0104,G0380,20081001,1,Standards of medical/surgical practice
+G0104,G0381,20081001,1,Standards of medical/surgical practice
+G0104,G0382,20081001,1,Standards of medical/surgical practice
+G0104,G0383,20081001,1,Standards of medical/surgical practice
+G0104,G0384,20081001,1,Standards of medical/surgical practice
+G0104,G0406,20201001,1,Standards of medical/surgical practice
+G0104,G0407,20201001,1,Standards of medical/surgical practice
+G0104,G0408,20201001,1,Standards of medical/surgical practice
+G0104,G0425,20201001,1,Standards of medical/surgical practice
+G0104,G0426,20201001,1,Standards of medical/surgical practice
+G0104,G0427,20201001,1,Standards of medical/surgical practice
+G0104,G0463,20140701,1,Standards of medical/surgical practice
+G0104,G0471,20150701,1,Standards of medical/surgical practice
+G0104,G0508,20201001,1,Standards of medical/surgical practice
+G0104,G0509,20201001,1,Standards of medical/surgical practice
+G0105,G0181,20020401,1,Standards of medical/surgical practice
+G0105,G0182,20020401,1,Standards of medical/surgical practice
+G0105,G0380,20081001,1,Standards of medical/surgical practice
+G0105,G0381,20081001,1,Standards of medical/surgical practice
+G0105,G0382,20081001,1,Standards of medical/surgical practice
+G0105,G0383,20081001,1,Standards of medical/surgical practice
+G0105,G0384,20081001,1,Standards of medical/surgical practice
+G0105,G0406,20201001,1,Standards of medical/surgical practice
+G0105,G0407,20201001,1,Standards of medical/surgical practice
+G0105,G0408,20201001,1,Standards of medical/surgical practice
+G0105,G0425,20201001,1,Standards of medical/surgical practice
+G0105,G0426,20201001,1,Standards of medical/surgical practice
+G0105,G0427,20201001,1,Standards of medical/surgical practice
+G0105,G0463,20140701,1,Standards of medical/surgical practice
+G0105,G0471,20150701,1,Standards of medical/surgical practice
+G0105,G0508,20201001,1,Standards of medical/surgical practice
+G0105,G0509,20201001,1,Standards of medical/surgical practice
+G0108,G0270,20201001,0,Misuse of Column Two code with Column One code
+G0108,G0271,20201001,0,Misuse of Column Two code with Column One code
+G0109,G0270,20201001,0,Misuse of Column Two code with Column One code
+G0109,G0271,20201001,0,Misuse of Column Two code with Column One code
+G0117,G0118,20020101,0,More extensive procedure
+G0121,G0105,20020401,0,Mutually exclusive procedures
+G0121,G0380,20081001,1,Standards of medical/surgical practice
+G0121,G0381,20081001,1,Standards of medical/surgical practice
+G0121,G0382,20081001,1,Standards of medical/surgical practice
+G0121,G0383,20081001,1,Standards of medical/surgical practice
+G0121,G0384,20081001,1,Standards of medical/surgical practice
+G0121,G0406,20201001,1,Standards of medical/surgical practice
+G0121,G0407,20201001,1,Standards of medical/surgical practice
+G0121,G0408,20201001,1,Standards of medical/surgical practice
+G0121,G0425,20201001,1,Standards of medical/surgical practice
+G0121,G0426,20201001,1,Standards of medical/surgical practice
+G0121,G0427,20201001,1,Standards of medical/surgical practice
+G0121,G0463,20140701,1,Standards of medical/surgical practice
+G0121,G0471,20150701,1,Standards of medical/surgical practice
+G0121,G0508,20201001,1,Standards of medical/surgical practice
+G0121,G0509,20201001,1,Standards of medical/surgical practice
+G0123,P3000,19980401,0,Standards of medical/surgical practice
+G0124,G0141,20070701,0,Standards of medical/surgical practice
+G0124,G0147,20000701,0,Misuse of Column Two code with Column One code
+G0124,G0148,20000701,0,Misuse of Column Two code with Column One code
+G0124,P3000,20000701,0,Misuse of Column Two code with Column One code
+G0124,P3001,19980401,0,Standards of medical/surgical practice
+G0127,G0380,20081001,1,Mutually exclusive procedures
+G0127,G0381,20081001,1,Mutually exclusive procedures
+G0127,G0382,20081001,1,Mutually exclusive procedures
+G0127,G0383,20081001,1,Mutually exclusive procedures
+G0127,G0384,20081001,1,Mutually exclusive procedures
+G0127,G0406,20201001,1,Mutually exclusive procedures
+G0127,G0407,20201001,1,Mutually exclusive procedures
+G0127,G0408,20201001,1,Mutually exclusive procedures
+G0127,G0425,20201001,1,Mutually exclusive procedures
+G0127,G0426,20201001,1,Mutually exclusive procedures
+G0127,G0427,20201001,1,Mutually exclusive procedures
+G0127,G0463,20140701,1,Mutually exclusive procedures
+G0127,G0471,20150701,1,Standards of medical/surgical practice
+G0127,G0508,20201001,1,Mutually exclusive procedures
+G0127,G0509,20201001,1,Mutually exclusive procedures
+G0141,G0123,20000701,0,Misuse of Column Two code with Column One code
+G0141,G0143,20000701,0,Misuse of Column Two code with Column One code
+G0141,G0144,20000701,0,Misuse of Column Two code with Column One code
+G0141,P3000,20000701,0,Misuse of Column Two code with Column One code
+G0145,G0147,20000701,0,Standards of medical/surgical practice
+G0145,G0148,20000701,0,Standards of medical/surgical practice
+G0148,G0147,20000701,0,Standards of medical/surgical practice
+G0151,G0281,20030101,1,Standards of medical/surgical practice
+G0151,G0283,20030101,1,Standards of medical/surgical practice
+G0151,G0329,20040701,1,Standards of medical/surgical practice
+G0157,G0281,20110701,1,Standards of medical/surgical practice
+G0157,G0283,20110701,1,Standards of medical/surgical practice
+G0157,G0329,20110701,1,Standards of medical/surgical practice
+G0159,G0281,20110701,1,Standards of medical/surgical practice
+G0159,G0283,20110701,1,Standards of medical/surgical practice
+G0159,G0329,20110701,1,Standards of medical/surgical practice
+G0162,G0008,20110701,1,Standards of medical/surgical practice
+G0162,G0009,20110701,1,Standards of medical/surgical practice
+G0162,G0010,20110701,1,Standards of medical/surgical practice
+G0162,G0128,20110701,1,Mutually exclusive procedures
+G0162,P9612,20110701,1,Standards of medical/surgical practice
+G0162,P9615,20110701,1,Standards of medical/surgical practice
+G0168,G0463,20140701,1,CPT Manual or CMS manual coding instruction
+G0168,G0471,20150701,1,Standards of medical/surgical practice
+G0168,J0670,20100701,1,Misuse of Column Two code with Column One code
+G0179,G0180,20020401,0,Mutually exclusive procedures
+G0181,G0102,20020401,1,Standards of medical/surgical practice
+G0181,G0182,20020401,1,Mutually exclusive procedures
+G0181,G0506,20201001,0,Mutually exclusive procedures
+G0182,G0102,20020401,1,Standards of medical/surgical practice
+G0182,G0506,20201001,0,Mutually exclusive procedures
+G0239,G0237,20030101,1,HCPCS/CPT procedure code definition
+G0239,G0238,20030101,1,More extensive procedure
+G0245,G0127,20030101,0,CPT Manual or CMS manual coding instruction
+G0245,G0246,20020701,0,More extensive procedure
+G0246,G0127,20030101,0,CPT Manual or CMS manual coding instruction
+G0247,G0127,20020701,0,CPT Manual or CMS manual coding instruction
+G0257,G0491,20170701,1,Misuse of Column Two code with Column One code
+G0257,G0492,20170701,1,Misuse of Column Two code with Column One code
+G0259,G0471,20180101,1,Misuse of Column Two code with Column One code
+G0260,G0259,20180101,0,HCPCS/CPT procedure code definition
+G0260,G0471,20180101,1,Misuse of Column Two code with Column One code
+G0268,G0463,20140701,1,CPT Manual or CMS manual coding instruction
+G0268,G0471,20150701,1,Standards of medical/surgical practice
+G0270,G0271,20201001,0,Mutually exclusive procedures
+G0276,G0453,20150101,0,Standards of medical/surgical practice
+G0281,G0283,20030101,1,Mutually exclusive procedures
+G0281,G0329,20040701,0,Mutually exclusive procedures
+G0302,G0303,20050101,0,More extensive procedure
+G0302,G0304,20050101,0,More extensive procedure
+G0302,G0380,20081001,1,HCPCS/CPT procedure code definition
+G0302,G0381,20081001,1,HCPCS/CPT procedure code definition
+G0302,G0382,20081001,1,HCPCS/CPT procedure code definition
+G0302,G0383,20081001,1,HCPCS/CPT procedure code definition
+G0302,G0384,20081001,1,HCPCS/CPT procedure code definition
+G0302,G0406,20201001,1,HCPCS/CPT procedure code definition
+G0302,G0407,20201001,1,HCPCS/CPT procedure code definition
+G0302,G0408,20201001,1,HCPCS/CPT procedure code definition
+G0302,G0425,20201001,1,HCPCS/CPT procedure code definition
+G0302,G0426,20201001,1,HCPCS/CPT procedure code definition
+G0302,G0427,20201001,1,HCPCS/CPT procedure code definition
+G0302,G0463,20140701,1,HCPCS/CPT procedure code definition
+G0302,G0508,20201001,1,HCPCS/CPT procedure code definition
+G0302,G0509,20201001,1,HCPCS/CPT procedure code definition
+G0303,G0304,20050101,0,More extensive procedure
+G0303,G0380,20081001,1,HCPCS/CPT procedure code definition
+G0303,G0381,20081001,1,HCPCS/CPT procedure code definition
+G0303,G0382,20081001,1,HCPCS/CPT procedure code definition
+G0303,G0383,20081001,1,HCPCS/CPT procedure code definition
+G0303,G0384,20081001,1,HCPCS/CPT procedure code definition
+G0303,G0406,20201001,1,HCPCS/CPT procedure code definition
+G0303,G0407,20201001,1,HCPCS/CPT procedure code definition
+G0303,G0408,20201001,1,HCPCS/CPT procedure code definition
+G0303,G0425,20201001,1,HCPCS/CPT procedure code definition
+G0303,G0426,20201001,1,HCPCS/CPT procedure code definition
+G0303,G0427,20201001,1,HCPCS/CPT procedure code definition
+G0303,G0463,20140701,1,HCPCS/CPT procedure code definition
+G0303,G0508,20201001,1,HCPCS/CPT procedure code definition
+G0303,G0509,20201001,1,HCPCS/CPT procedure code definition
+G0304,G0380,20081001,1,HCPCS/CPT procedure code definition
+G0304,G0381,20081001,1,HCPCS/CPT procedure code definition
+G0304,G0382,20081001,1,HCPCS/CPT procedure code definition
+G0304,G0383,20081001,1,HCPCS/CPT procedure code definition
+G0304,G0384,20081001,1,HCPCS/CPT procedure code definition
+G0304,G0406,20201001,1,HCPCS/CPT procedure code definition
+G0304,G0407,20201001,1,HCPCS/CPT procedure code definition
+G0304,G0408,20201001,1,HCPCS/CPT procedure code definition
+G0304,G0425,20201001,1,HCPCS/CPT procedure code definition
+G0304,G0426,20201001,1,HCPCS/CPT procedure code definition
+G0304,G0427,20201001,1,HCPCS/CPT procedure code definition
+G0304,G0463,20140701,1,HCPCS/CPT procedure code definition
+G0304,G0508,20201001,1,HCPCS/CPT procedure code definition
+G0304,G0509,20201001,1,HCPCS/CPT procedure code definition
+G0305,G0380,20081001,1,HCPCS/CPT procedure code definition
+G0305,G0381,20081001,1,HCPCS/CPT procedure code definition
+G0305,G0382,20081001,1,HCPCS/CPT procedure code definition
+G0305,G0383,20081001,1,HCPCS/CPT procedure code definition
+G0305,G0384,20081001,1,HCPCS/CPT procedure code definition
+G0305,G0406,20201001,1,HCPCS/CPT procedure code definition
+G0305,G0407,20201001,1,HCPCS/CPT procedure code definition
+G0305,G0408,20201001,1,HCPCS/CPT procedure code definition
+G0305,G0425,20201001,1,HCPCS/CPT procedure code definition
+G0305,G0426,20201001,1,HCPCS/CPT procedure code definition
+G0305,G0427,20201001,1,HCPCS/CPT procedure code definition
+G0305,G0463,20140701,1,HCPCS/CPT procedure code definition
+G0305,G0508,20201001,1,HCPCS/CPT procedure code definition
+G0305,G0509,20201001,1,HCPCS/CPT procedure code definition
+G0306,G0307,20040101,0,More extensive procedure
+G0327,G0104,20221001,0,Mutually exclusive procedures
+G0327,G0105,20221001,0,Mutually exclusive procedures
+G0327,G0121,20221001,0,Mutually exclusive procedures
+G0327,G0452,20220701,1,Misuse of Column Two code with Column One code
+G0327,G0476,20220701,1,CPT Manual or CMS manual coding instruction
+G0329,G0283,20040701,1,Mutually exclusive procedures
+G0337,G0101,20050101,0,Misuse of Column Two code with Column One code
+G0337,G0102,20050101,0,Misuse of Column Two code with Column One code
+G0337,G0104,20050101,0,Misuse of Column Two code with Column One code
+G0337,G0105,20050101,0,Misuse of Column Two code with Column One code
+G0337,G0117,20050101,0,Misuse of Column Two code with Column One code
+G0337,G0118,20050101,0,Misuse of Column Two code with Column One code
+G0337,G0121,20050101,0,Misuse of Column Two code with Column One code
+G0337,G0245,20050101,0,Standards of medical/surgical practice
+G0337,G0246,20050101,0,Standards of medical/surgical practice
+G0337,G0248,20050101,0,Misuse of Column Two code with Column One code
+G0337,G0250,20050101,1,Misuse of Column Two code with Column One code
+G0337,G0270,20201001,0,Misuse of Column Two code with Column One code
+G0337,G0271,20050101,0,Misuse of Column Two code with Column One code
+G0337,G0410,20100101,1,Misuse of Column Two code with Column One code
+G0337,G0411,20100101,1,Misuse of Column Two code with Column One code
+G0337,G0459,20201001,0,Standards of medical/surgical practice
+G0337,G0463,20140701,0,Mutually exclusive procedures
+G0337,P3000,20050101,0,Misuse of Column Two code with Column One code
+G0337,P3001,20050101,0,Misuse of Column Two code with Column One code
+G0337,Q0091,20050101,0,Misuse of Column Two code with Column One code
+G0339,G0340,20080401,1,Mutually exclusive procedures
+G0339,G0459,20201001,0,Standards of medical/surgical practice
+G0339,G0463,20140701,0,Standards of medical/surgical practice
+G0339,G0471,20150701,0,Standards of medical/surgical practice
+G0339,G0500,20170701,0,Standards of medical/surgical practice
+G0340,G0459,20201001,0,Standards of medical/surgical practice
+G0340,G0463,20140701,0,Standards of medical/surgical practice
+G0340,G0471,20150701,0,Standards of medical/surgical practice
+G0340,G0500,20170701,0,Standards of medical/surgical practice
+G0341,G0463,20140701,1,CPT Manual or CMS manual coding instruction
+G0341,G0471,20150701,1,Standards of medical/surgical practice
+G0341,J0670,20120701,1,Misuse of Column Two code with Column One code
+G0341,J1642,20170701,1,Misuse of Column Two code with Column One code
+G0341,J1644,20100701,1,Misuse of Column Two code with Column One code
+G0342,G0341,20050401,0,More extensive procedure
+G0342,G0463,20140701,1,CPT Manual or CMS manual coding instruction
+G0342,G0471,20150701,1,Standards of medical/surgical practice
+G0343,G0341,20050401,0,More extensive procedure
+G0343,G0342,20050401,0,More extensive procedure
+G0343,G0463,20140701,1,CPT Manual or CMS manual coding instruction
+G0343,G0471,20150701,1,Standards of medical/surgical practice
+G0380,G0102,20081001,1,Standards of medical/surgical practice
+G0380,G0245,20081001,1,Standards of medical/surgical practice
+G0380,G0246,20081001,1,Standards of medical/surgical practice
+G0380,G0270,20201001,1,Misuse of Column Two code with Column One code
+G0380,G0271,20081001,1,Misuse of Column Two code with Column One code
+G0380,G0459,20201001,1,Standards of medical/surgical practice
+G0380,G0498,20170701,1,Standards of medical/surgical practice
+G0381,G0102,20081001,1,Standards of medical/surgical practice
+G0381,G0245,20081001,1,Standards of medical/surgical practice
+G0381,G0246,20081001,1,Standards of medical/surgical practice
+G0381,G0270,20201001,1,Misuse of Column Two code with Column One code
+G0381,G0271,20081001,1,Misuse of Column Two code with Column One code
+G0381,G0380,20081001,1,Mutually exclusive procedures
+G0381,G0459,20201001,1,Standards of medical/surgical practice
+G0381,G0498,20170701,1,Standards of medical/surgical practice
+G0382,G0102,20081001,1,Standards of medical/surgical practice
+G0382,G0245,20081001,1,Standards of medical/surgical practice
+G0382,G0246,20081001,1,Standards of medical/surgical practice
+G0382,G0270,20201001,1,Misuse of Column Two code with Column One code
+G0382,G0271,20081001,1,Misuse of Column Two code with Column One code
+G0382,G0380,20081001,1,Mutually exclusive procedures
+G0382,G0381,20081001,1,Mutually exclusive procedures
+G0382,G0459,20201001,1,Standards of medical/surgical practice
+G0382,G0498,20170701,1,Standards of medical/surgical practice
+G0383,G0102,20081001,1,Standards of medical/surgical practice
+G0383,G0245,20081001,1,Standards of medical/surgical practice
+G0383,G0246,20081001,1,Standards of medical/surgical practice
+G0383,G0270,20201001,1,Misuse of Column Two code with Column One code
+G0383,G0271,20081001,1,Misuse of Column Two code with Column One code
+G0383,G0380,20081001,1,Mutually exclusive procedures
+G0383,G0381,20081001,1,Mutually exclusive procedures
+G0383,G0382,20081001,1,Mutually exclusive procedures
+G0383,G0459,20201001,1,Standards of medical/surgical practice
+G0383,G0498,20170701,1,Standards of medical/surgical practice
+G0384,G0102,20081001,1,Standards of medical/surgical practice
+G0384,G0245,20081001,1,Standards of medical/surgical practice
+G0384,G0246,20081001,1,Standards of medical/surgical practice
+G0384,G0270,20201001,1,Misuse of Column Two code with Column One code
+G0384,G0271,20081001,1,Misuse of Column Two code with Column One code
+G0384,G0380,20081001,1,Mutually exclusive procedures
+G0384,G0381,20081001,1,Mutually exclusive procedures
+G0384,G0382,20081001,1,Mutually exclusive procedures
+G0384,G0383,20081001,1,Mutually exclusive procedures
+G0384,G0459,20201001,1,Standards of medical/surgical practice
+G0384,G0498,20170701,1,Standards of medical/surgical practice
+G0396,G0442,20201001,0,Mutually exclusive procedures
+G0396,G2011,20201001,0,More extensive procedure
+G0397,G0396,20201001,0,Misuse of Column Two code with Column One code
+G0397,G0442,20201001,0,Mutually exclusive procedures
+G0397,G2011,20201001,0,More extensive procedure
+G0398,G0248,20250401,0,Misuse of Column Two code with Column One code
+G0398,G0399,20081001,0,Mutually exclusive procedures
+G0398,G0400,20081001,0,Mutually exclusive procedures
+G0399,G0248,20250401,0,Misuse of Column Two code with Column One code
+G0399,G0400,20081001,0,Mutually exclusive procedures
+G0400,G0248,20250401,0,Misuse of Column Two code with Column One code
+G0402,G0250,20100101,1,Misuse of Column Two code with Column One code
+G0402,G0270,20201001,0,Misuse of Column Two code with Column One code
+G0402,G0271,20100101,0,Misuse of Column Two code with Column One code
+G0402,G0380,20100101,1,Mutually exclusive procedures
+G0402,G0381,20100101,1,Mutually exclusive procedures
+G0402,G0382,20100101,1,Mutually exclusive procedures
+G0402,G0383,20100101,1,Mutually exclusive procedures
+G0402,G0384,20100101,1,Mutually exclusive procedures
+G0402,G0438,20201001,0,Mutually exclusive procedures
+G0402,G0439,20201001,0,Mutually exclusive procedures
+G0402,G0444,20201001,0,More extensive procedure
+G0402,G0459,20201001,1,Standards of medical/surgical practice
+G0402,G0463,20140701,1,Mutually exclusive procedures
+G0403,G0404,20100101,0,HCPCS/CPT procedure code definition
+G0403,G0405,20100101,0,HCPCS/CPT procedure code definition
+G0406,G0102,20201001,0,Standards of medical/surgical practice
+G0406,G0245,20201001,0,Standards of medical/surgical practice
+G0406,G0246,20201001,0,Standards of medical/surgical practice
+G0406,G0250,20201001,0,Misuse of Column Two code with Column One code
+G0406,G0270,20201001,0,Misuse of Column Two code with Column One code
+G0406,G0271,20201001,0,Misuse of Column Two code with Column One code
+G0406,G0459,20201001,0,More extensive procedure
+G0406,G0498,20201001,1,Standards of medical/surgical practice
+G0407,G0102,20201001,0,Standards of medical/surgical practice
+G0407,G0245,20201001,0,Standards of medical/surgical practice
+G0407,G0246,20201001,0,Standards of medical/surgical practice
+G0407,G0250,20201001,0,Misuse of Column Two code with Column One code
+G0407,G0270,20201001,0,Misuse of Column Two code with Column One code
+G0407,G0271,20201001,0,Misuse of Column Two code with Column One code
+G0407,G0406,20201001,0,HCPCS/CPT procedure code definition
+G0407,G0459,20201001,0,More extensive procedure
+G0407,G0498,20201001,1,Standards of medical/surgical practice
+G0408,G0102,20201001,0,Standards of medical/surgical practice
+G0408,G0245,20201001,0,Standards of medical/surgical practice
+G0408,G0246,20201001,0,Standards of medical/surgical practice
+G0408,G0250,20201001,0,Misuse of Column Two code with Column One code
+G0408,G0270,20201001,0,Misuse of Column Two code with Column One code
+G0408,G0271,20201001,0,Misuse of Column Two code with Column One code
+G0408,G0406,20201001,0,HCPCS/CPT procedure code definition
+G0408,G0407,20201001,0,HCPCS/CPT procedure code definition
+G0408,G0459,20201001,0,More extensive procedure
+G0408,G0498,20201001,1,Standards of medical/surgical practice
+G0409,G0155,20100101,1,Mutually exclusive procedures
+G0409,G0176,20100101,1,Mutually exclusive procedures
+G0409,G0177,20100101,1,Mutually exclusive procedures
+G0409,G0459,20201001,1,Mutually exclusive procedures
+G0410,G0176,20100101,1,Misuse of Column Two code with Column One code
+G0410,G0177,20100101,1,Misuse of Column Two code with Column One code
+G0410,G0270,20201001,0,Misuse of Column Two code with Column One code
+G0410,G0271,20100101,0,Misuse of Column Two code with Column One code
+G0410,G0380,20100101,1,Misuse of Column Two code with Column One code
+G0410,G0381,20100101,1,Misuse of Column Two code with Column One code
+G0410,G0382,20100101,1,Misuse of Column Two code with Column One code
+G0410,G0383,20100101,1,Misuse of Column Two code with Column One code
+G0410,G0384,20100101,1,Misuse of Column Two code with Column One code
+G0410,G0459,20201001,0,Standards of medical/surgical practice
+G0410,G0463,20140701,1,Misuse of Column Two code with Column One code
+G0411,G0176,20100101,1,Misuse of Column Two code with Column One code
+G0411,G0177,20100101,1,Misuse of Column Two code with Column One code
+G0411,G0270,20201001,0,Misuse of Column Two code with Column One code
+G0411,G0271,20100101,0,Misuse of Column Two code with Column One code
+G0411,G0380,20100101,1,Misuse of Column Two code with Column One code
+G0411,G0381,20100101,1,Misuse of Column Two code with Column One code
+G0411,G0382,20100101,1,Misuse of Column Two code with Column One code
+G0411,G0383,20100101,1,Misuse of Column Two code with Column One code
+G0411,G0384,20100101,1,Misuse of Column Two code with Column One code
+G0411,G0410,20100101,1,Mutually exclusive procedures
+G0411,G0459,20201001,0,Standards of medical/surgical practice
+G0411,G0463,20140701,1,Misuse of Column Two code with Column One code
+G0412,G0463,20140701,1,CPT Manual or CMS manual coding instruction
+G0412,G0471,20150701,1,Standards of medical/surgical practice
+G0413,G0463,20140701,1,CPT Manual or CMS manual coding instruction
+G0413,G0471,20150701,1,Standards of medical/surgical practice
+G0414,G0463,20140701,1,CPT Manual or CMS manual coding instruction
+G0414,G0471,20150701,1,Standards of medical/surgical practice
+G0415,G0413,20091001,1,More extensive procedure
+G0415,G0463,20140701,1,CPT Manual or CMS manual coding instruction
+G0415,G0471,20150701,1,Standards of medical/surgical practice
+G0420,G0421,20201001,1,Misuse of Column Two code with Column One code
+G0422,G0423,20100701,1,More extensive procedure
+G0422,G0471,20150701,1,Standards of medical/surgical practice
+G0423,G0471,20150701,1,Standards of medical/surgical practice
+G0425,G0102,20201001,0,Standards of medical/surgical practice
+G0425,G0245,20201001,0,Standards of medical/surgical practice
+G0425,G0246,20201001,0,Standards of medical/surgical practice
+G0425,G0250,20201001,1,Misuse of Column Two code with Column One code
+G0425,G0270,20201001,0,Misuse of Column Two code with Column One code
+G0425,G0271,20201001,0,Misuse of Column Two code with Column One code
+G0425,G0406,20201001,0,Misuse of Column Two code with Column One code
+G0425,G0407,20201001,0,Misuse of Column Two code with Column One code
+G0425,G0408,20201001,0,Misuse of Column Two code with Column One code
+G0425,G0459,20201001,0,More extensive procedure
+G0425,G0498,20201001,1,Standards of medical/surgical practice
+G0426,G0102,20201001,0,Standards of medical/surgical practice
+G0426,G0245,20201001,0,Standards of medical/surgical practice
+G0426,G0246,20201001,0,Standards of medical/surgical practice
+G0426,G0250,20201001,1,Misuse of Column Two code with Column One code
+G0426,G0270,20201001,0,Misuse of Column Two code with Column One code
+G0426,G0271,20201001,0,Misuse of Column Two code with Column One code
+G0426,G0406,20201001,0,Misuse of Column Two code with Column One code
+G0426,G0407,20201001,0,Misuse of Column Two code with Column One code
+G0426,G0408,20201001,0,Misuse of Column Two code with Column One code
+G0426,G0425,20201001,0,More extensive procedure
+G0426,G0459,20201001,0,More extensive procedure
+G0426,G0498,20201001,1,Standards of medical/surgical practice
+G0426,G0508,20201001,0,More extensive procedure
+G0426,G0509,20201001,0,More extensive procedure
+G0427,G0102,20201001,0,Standards of medical/surgical practice
+G0427,G0245,20201001,0,Standards of medical/surgical practice
+G0427,G0246,20201001,0,Standards of medical/surgical practice
+G0427,G0250,20201001,1,Misuse of Column Two code with Column One code
+G0427,G0270,20201001,0,Misuse of Column Two code with Column One code
+G0427,G0271,20201001,0,Misuse of Column Two code with Column One code
+G0427,G0406,20201001,0,Misuse of Column Two code with Column One code
+G0427,G0407,20201001,0,Misuse of Column Two code with Column One code
+G0427,G0408,20201001,0,Misuse of Column Two code with Column One code
+G0427,G0425,20201001,0,More extensive procedure
+G0427,G0426,20201001,0,More extensive procedure
+G0427,G0459,20201001,0,More extensive procedure
+G0427,G0498,20201001,1,Standards of medical/surgical practice
+G0427,G0508,20201001,0,More extensive procedure
+G0427,G0509,20201001,0,More extensive procedure
+G0428,G0471,20150701,1,Standards of medical/surgical practice
+G0429,G0463,20140701,1,CPT Manual or CMS manual coding instruction
+G0429,G0471,20150701,1,Standards of medical/surgical practice
+G0438,G0250,20201001,1,Misuse of Column Two code with Column One code
+G0438,G0270,20201001,0,Misuse of Column Two code with Column One code
+G0438,G0271,20201001,0,Misuse of Column Two code with Column One code
+G0438,G0380,20201001,1,Mutually exclusive procedures
+G0438,G0381,20201001,1,Mutually exclusive procedures
+G0438,G0382,20201001,1,Mutually exclusive procedures
+G0438,G0383,20201001,1,Mutually exclusive procedures
+G0438,G0384,20201001,1,Mutually exclusive procedures
+G0438,G0439,20201001,0,More extensive procedure
+G0438,G0444,20201001,0,More extensive procedure
+G0438,G0459,20201001,1,Standards of medical/surgical practice
+G0438,G0463,20201001,1,Mutually exclusive procedures
+G0439,G0250,20201001,1,Misuse of Column Two code with Column One code
+G0439,G0270,20201001,0,Misuse of Column Two code with Column One code
+G0439,G0271,20201001,0,Misuse of Column Two code with Column One code
+G0439,G0380,20201001,1,Mutually exclusive procedures
+G0439,G0381,20201001,1,Mutually exclusive procedures
+G0439,G0382,20201001,1,Mutually exclusive procedures
+G0439,G0383,20201001,1,Mutually exclusive procedures
+G0439,G0384,20201001,1,Mutually exclusive procedures
+G0439,G0459,20201001,1,Standards of medical/surgical practice
+G0439,G0463,20201001,1,Mutually exclusive procedures
+G0442,G0250,20201001,1,Misuse of Column Two code with Column One code
+G0442,G0270,20201001,0,Misuse of Column Two code with Column One code
+G0442,G0271,20201001,0,Misuse of Column Two code with Column One code
+G0442,G0380,20201001,1,Mutually exclusive procedures
+G0442,G0381,20201001,1,Mutually exclusive procedures
+G0442,G0382,20201001,1,Mutually exclusive procedures
+G0442,G0383,20201001,1,Mutually exclusive procedures
+G0442,G0384,20201001,1,Mutually exclusive procedures
+G0442,G0459,20201001,1,Standards of medical/surgical practice
+G0443,G0250,20201001,1,Misuse of Column Two code with Column One code
+G0443,G0270,20201001,0,Misuse of Column Two code with Column One code
+G0443,G0271,20201001,0,Misuse of Column Two code with Column One code
+G0443,G0380,20201001,1,Mutually exclusive procedures
+G0443,G0381,20201001,1,Mutually exclusive procedures
+G0443,G0382,20201001,1,Mutually exclusive procedures
+G0443,G0383,20201001,1,Mutually exclusive procedures
+G0443,G0384,20201001,1,Mutually exclusive procedures
+G0443,G0396,20201001,0,More extensive procedure
+G0443,G0397,20201001,0,More extensive procedure
+G0443,G0459,20201001,1,Standards of medical/surgical practice
+G0443,G2011,20201001,0,More extensive procedure
+G0444,G0250,20201001,1,Misuse of Column Two code with Column One code
+G0444,G0270,20201001,0,Misuse of Column Two code with Column One code
+G0444,G0271,20201001,0,Misuse of Column Two code with Column One code
+G0444,G0380,20201001,1,Mutually exclusive procedures
+G0444,G0381,20201001,1,Mutually exclusive procedures
+G0444,G0382,20201001,1,Mutually exclusive procedures
+G0444,G0383,20201001,1,Mutually exclusive procedures
+G0444,G0384,20201001,1,Mutually exclusive procedures
+G0445,G0250,20201001,1,Misuse of Column Two code with Column One code
+G0445,G0270,20201001,0,Misuse of Column Two code with Column One code
+G0445,G0271,20201001,0,Misuse of Column Two code with Column One code
+G0445,G0380,20201001,1,Mutually exclusive procedures
+G0445,G0381,20201001,1,Mutually exclusive procedures
+G0445,G0382,20201001,1,Mutually exclusive procedures
+G0445,G0383,20201001,1,Mutually exclusive procedures
+G0445,G0384,20201001,1,Mutually exclusive procedures
+G0445,G0444,20201001,0,More extensive procedure
+G0447,G0473,20201001,1,Mutually exclusive procedures
+G0448,G0471,20150701,1,Standards of medical/surgical practice
+G0455,G0463,20140701,1,CPT Manual or CMS manual coding instruction
+G0458,G0471,20150701,0,Standards of medical/surgical practice
+G0458,G0500,20170701,0,Standards of medical/surgical practice
+G0458,P9612,20130701,0,Standards of medical/surgical practice
+G0459,G0250,20201001,1,Misuse of Column Two code with Column One code
+G0459,G0270,20201001,0,Misuse of Column Two code with Column One code
+G0459,G0271,20201001,0,Misuse of Column Two code with Column One code
+G0459,G0444,20201001,1,More extensive procedure
+G0459,G0445,20201001,1,More extensive procedure
+G0459,G0446,20201001,1,More extensive procedure
+G0459,G0447,20201001,1,More extensive procedure
+G0459,G0473,20201001,1,More extensive procedure
+G0460,P9020,20130701,1,Mutually exclusive procedures
+G0463,G0102,20140701,0,Standards of medical/surgical practice
+G0463,G0117,20140701,0,Standards of medical/surgical practice
+G0463,G0118,20140701,0,Standards of medical/surgical practice
+G0463,G0245,20140701,0,Standards of medical/surgical practice
+G0463,G0246,20140701,0,Standards of medical/surgical practice
+G0463,G0248,20140701,1,Misuse of Column Two code with Column One code
+G0463,G0250,20140701,1,Misuse of Column Two code with Column One code
+G0463,G0270,20201001,0,Misuse of Column Two code with Column One code
+G0463,G0271,20140701,0,Misuse of Column Two code with Column One code
+G0463,G0396,20201001,1,Standards of medical/surgical practice
+G0463,G0397,20201001,1,Standards of medical/surgical practice
+G0463,G0442,20201001,1,Standards of medical/surgical practice
+G0463,G0443,20201001,1,Standards of medical/surgical practice
+G0463,G0444,20201001,1,More extensive procedure
+G0463,G0445,20201001,1,More extensive procedure
+G0463,G0446,20201001,1,More extensive procedure
+G0463,G0447,20201001,1,More extensive procedure
+G0463,G0459,20201001,0,Misuse of Column Two code with Column One code
+G0463,G0473,20150701,1,More extensive procedure
+G0463,G2011,20190701,1,Standards of medical/surgical practice
+G0471,G0463,20150701,1,CPT Manual or CMS manual coding instruction
+G0471,J0670,20150701,1,Misuse of Column Two code with Column One code
+G0471,P9612,20150701,0,Mutually exclusive procedures
+G0471,P9615,20150701,0,Mutually exclusive procedures
+G0475,G0432,20171001,0,Mutually exclusive procedures
+G0475,G0433,20171001,0,Mutually exclusive procedures
+G0480,G0659,20171001,0,HCPCS/CPT procedure code definition
+G0481,G0480,20160401,0,HCPCS/CPT procedure code definition
+G0481,G0659,20171001,0,HCPCS/CPT procedure code definition
+G0482,G0480,20160401,0,HCPCS/CPT procedure code definition
+G0482,G0481,20160401,0,HCPCS/CPT procedure code definition
+G0482,G0659,20171001,0,HCPCS/CPT procedure code definition
+G0483,G0480,20160401,0,HCPCS/CPT procedure code definition
+G0483,G0481,20160401,0,HCPCS/CPT procedure code definition
+G0483,G0482,20160401,0,HCPCS/CPT procedure code definition
+G0483,G0659,20171001,0,HCPCS/CPT procedure code definition
+G0491,G0270,20201001,0,Misuse of Column Two code with Column One code
+G0491,G0271,20170701,0,Misuse of Column Two code with Column One code
+G0491,G0380,20170701,1,Misuse of Column Two code with Column One code
+G0491,G0381,20170701,1,Misuse of Column Two code with Column One code
+G0491,G0382,20170701,1,Misuse of Column Two code with Column One code
+G0491,G0383,20170701,1,Misuse of Column Two code with Column One code
+G0491,G0384,20170701,1,Misuse of Column Two code with Column One code
+G0491,G0406,20201001,1,Misuse of Column Two code with Column One code
+G0491,G0407,20201001,1,Misuse of Column Two code with Column One code
+G0491,G0408,20201001,1,Misuse of Column Two code with Column One code
+G0491,G0425,20201001,1,Misuse of Column Two code with Column One code
+G0491,G0426,20201001,1,Misuse of Column Two code with Column One code
+G0491,G0427,20201001,1,Misuse of Column Two code with Column One code
+G0491,G0463,20170701,1,CPT Manual or CMS manual coding instruction
+G0491,G0471,20170701,1,Standards of medical/surgical practice
+G0491,G0508,20201001,1,Misuse of Column Two code with Column One code
+G0491,G0509,20201001,1,Misuse of Column Two code with Column One code
+G0492,G0270,20201001,0,Misuse of Column Two code with Column One code
+G0492,G0271,20170701,0,Misuse of Column Two code with Column One code
+G0492,G0380,20170701,1,Misuse of Column Two code with Column One code
+G0492,G0381,20170701,1,Misuse of Column Two code with Column One code
+G0492,G0382,20170701,1,Misuse of Column Two code with Column One code
+G0492,G0383,20170701,1,Misuse of Column Two code with Column One code
+G0492,G0384,20170701,1,Misuse of Column Two code with Column One code
+G0492,G0406,20201001,1,Misuse of Column Two code with Column One code
+G0492,G0407,20201001,1,Misuse of Column Two code with Column One code
+G0492,G0408,20201001,1,Misuse of Column Two code with Column One code
+G0492,G0425,20201001,1,Misuse of Column Two code with Column One code
+G0492,G0426,20201001,1,Misuse of Column Two code with Column One code
+G0492,G0427,20201001,1,Misuse of Column Two code with Column One code
+G0492,G0463,20170701,1,CPT Manual or CMS manual coding instruction
+G0492,G0471,20170701,1,Standards of medical/surgical practice
+G0492,G0508,20201001,1,Misuse of Column Two code with Column One code
+G0492,G0509,20201001,1,Misuse of Column Two code with Column One code
+G0498,G0463,20170701,1,Misuse of Column Two code with Column One code
+G0498,J1644,20170701,1,Misuse of Column Two code with Column One code
+G0500,G0380,20170701,1,Standards of medical/surgical practice
+G0500,G0381,20170701,1,Standards of medical/surgical practice
+G0500,G0382,20170701,1,Standards of medical/surgical practice
+G0500,G0383,20170701,1,Standards of medical/surgical practice
+G0500,G0384,20170701,1,Standards of medical/surgical practice
+G0500,G0406,20201001,1,Standards of medical/surgical practice
+G0500,G0407,20201001,1,Standards of medical/surgical practice
+G0500,G0408,20201001,1,Standards of medical/surgical practice
+G0500,G0425,20201001,1,Standards of medical/surgical practice
+G0500,G0426,20201001,1,Standards of medical/surgical practice
+G0500,G0427,20201001,1,Standards of medical/surgical practice
+G0500,G0463,20170701,1,Standards of medical/surgical practice
+G0508,G0102,20201001,0,Standards of medical/surgical practice
+G0508,G0245,20201001,0,Standards of medical/surgical practice
+G0508,G0246,20201001,0,Standards of medical/surgical practice
+G0508,G0250,20201001,1,Misuse of Column Two code with Column One code
+G0508,G0270,20201001,0,Misuse of Column Two code with Column One code
+G0508,G0271,20201001,0,Misuse of Column Two code with Column One code
+G0508,G0406,20201001,0,Misuse of Column Two code with Column One code
+G0508,G0407,20201001,0,Misuse of Column Two code with Column One code
+G0508,G0408,20201001,0,Misuse of Column Two code with Column One code
+G0508,G0459,20201001,0,More extensive procedure
+G0508,G0509,20201001,0,Mutually exclusive procedures
+G0509,G0102,20201001,0,Standards of medical/surgical practice
+G0509,G0245,20201001,0,Standards of medical/surgical practice
+G0509,G0246,20201001,0,Standards of medical/surgical practice
+G0509,G0250,20201001,1,Misuse of Column Two code with Column One code
+G0509,G0270,20201001,0,Misuse of Column Two code with Column One code
+G0509,G0271,20201001,0,Misuse of Column Two code with Column One code
+G0509,G0406,20201001,0,Misuse of Column Two code with Column One code
+G0509,G0407,20201001,0,Misuse of Column Two code with Column One code
+G0509,G0408,20201001,0,Misuse of Column Two code with Column One code
+G0509,G0459,20201001,0,More extensive procedure
+G0516,J0670,20180701,1,Misuse of Column Two code with Column One code
+G0517,J0670,20180701,1,Misuse of Column Two code with Column One code
+G0518,J0670,20180701,1,Misuse of Column Two code with Column One code
+G2001,G0076,20190401,0,CPT Manual or CMS manual coding instruction
+G2001,G0077,20190401,0,CPT Manual or CMS manual coding instruction
+G2001,G0078,20190401,0,CPT Manual or CMS manual coding instruction
+G2001,G0079,20190401,0,CPT Manual or CMS manual coding instruction
+G2001,G0080,20190401,0,CPT Manual or CMS manual coding instruction
+G2001,G0081,20190401,0,CPT Manual or CMS manual coding instruction
+G2001,G0082,20190401,0,CPT Manual or CMS manual coding instruction
+G2001,G0083,20190401,0,CPT Manual or CMS manual coding instruction
+G2001,G0084,20190401,0,CPT Manual or CMS manual coding instruction
+G2001,G0085,20190401,0,CPT Manual or CMS manual coding instruction
+G2001,G0086,20190401,0,CPT Manual or CMS manual coding instruction
+G2001,G0087,20190401,0,CPT Manual or CMS manual coding instruction
+G2002,G0076,20190401,0,CPT Manual or CMS manual coding instruction
+G2002,G0077,20190401,0,CPT Manual or CMS manual coding instruction
+G2002,G0078,20190401,0,CPT Manual or CMS manual coding instruction
+G2002,G0079,20190401,0,CPT Manual or CMS manual coding instruction
+G2002,G0080,20190401,0,CPT Manual or CMS manual coding instruction
+G2002,G0081,20190401,0,CPT Manual or CMS manual coding instruction
+G2002,G0082,20190401,0,CPT Manual or CMS manual coding instruction
+G2002,G0083,20190401,0,CPT Manual or CMS manual coding instruction
+G2002,G0084,20190401,0,CPT Manual or CMS manual coding instruction
+G2002,G0085,20190401,0,CPT Manual or CMS manual coding instruction
+G2002,G0086,20190401,0,CPT Manual or CMS manual coding instruction
+G2002,G0087,20190401,0,CPT Manual or CMS manual coding instruction
+G2003,G0076,20190401,0,CPT Manual or CMS manual coding instruction
+G2003,G0077,20190401,0,CPT Manual or CMS manual coding instruction
+G2003,G0078,20190401,0,CPT Manual or CMS manual coding instruction
+G2003,G0079,20190401,0,CPT Manual or CMS manual coding instruction
+G2003,G0080,20190401,0,CPT Manual or CMS manual coding instruction
+G2003,G0081,20190401,0,CPT Manual or CMS manual coding instruction
+G2003,G0082,20190401,0,CPT Manual or CMS manual coding instruction
+G2003,G0083,20190401,0,CPT Manual or CMS manual coding instruction
+G2003,G0084,20190401,0,CPT Manual or CMS manual coding instruction
+G2003,G0085,20190401,0,CPT Manual or CMS manual coding instruction
+G2003,G0086,20190401,0,CPT Manual or CMS manual coding instruction
+G2003,G0087,20190401,0,CPT Manual or CMS manual coding instruction
+G2004,G0076,20190401,0,CPT Manual or CMS manual coding instruction
+G2004,G0077,20190401,0,CPT Manual or CMS manual coding instruction
+G2004,G0078,20190401,0,CPT Manual or CMS manual coding instruction
+G2004,G0079,20190401,0,CPT Manual or CMS manual coding instruction
+G2004,G0080,20190401,0,CPT Manual or CMS manual coding instruction
+G2004,G0081,20190401,0,CPT Manual or CMS manual coding instruction
+G2004,G0082,20190401,0,CPT Manual or CMS manual coding instruction
+G2004,G0083,20190401,0,CPT Manual or CMS manual coding instruction
+G2004,G0084,20190401,0,CPT Manual or CMS manual coding instruction
+G2004,G0085,20190401,0,CPT Manual or CMS manual coding instruction
+G2004,G0086,20190401,0,CPT Manual or CMS manual coding instruction
+G2004,G0087,20190401,0,CPT Manual or CMS manual coding instruction
+G2005,G0076,20190401,0,CPT Manual or CMS manual coding instruction
+G2005,G0077,20190401,0,CPT Manual or CMS manual coding instruction
+G2005,G0078,20190401,0,CPT Manual or CMS manual coding instruction
+G2005,G0079,20190401,0,CPT Manual or CMS manual coding instruction
+G2005,G0080,20190401,0,CPT Manual or CMS manual coding instruction
+G2005,G0081,20190401,0,CPT Manual or CMS manual coding instruction
+G2005,G0082,20190401,0,CPT Manual or CMS manual coding instruction
+G2005,G0083,20190401,0,CPT Manual or CMS manual coding instruction
+G2005,G0084,20190401,0,CPT Manual or CMS manual coding instruction
+G2005,G0085,20190401,0,CPT Manual or CMS manual coding instruction
+G2005,G0086,20190401,0,CPT Manual or CMS manual coding instruction
+G2005,G0087,20190401,0,CPT Manual or CMS manual coding instruction
+G2006,G0076,20190401,0,CPT Manual or CMS manual coding instruction
+G2006,G0077,20190401,0,CPT Manual or CMS manual coding instruction
+G2006,G0078,20190401,0,CPT Manual or CMS manual coding instruction
+G2006,G0079,20190401,0,CPT Manual or CMS manual coding instruction
+G2006,G0080,20190401,0,CPT Manual or CMS manual coding instruction
+G2006,G0081,20190401,0,CPT Manual or CMS manual coding instruction
+G2006,G0082,20190401,0,CPT Manual or CMS manual coding instruction
+G2006,G0083,20190401,0,CPT Manual or CMS manual coding instruction
+G2006,G0084,20190401,0,CPT Manual or CMS manual coding instruction
+G2006,G0085,20190401,0,CPT Manual or CMS manual coding instruction
+G2006,G0086,20190401,0,CPT Manual or CMS manual coding instruction
+G2006,G0087,20190401,0,CPT Manual or CMS manual coding instruction
+G2007,G0076,20190401,0,CPT Manual or CMS manual coding instruction
+G2007,G0077,20190401,0,CPT Manual or CMS manual coding instruction
+G2007,G0078,20190401,0,CPT Manual or CMS manual coding instruction
+G2007,G0079,20190401,0,CPT Manual or CMS manual coding instruction
+G2007,G0080,20190401,0,CPT Manual or CMS manual coding instruction
+G2007,G0081,20190401,0,CPT Manual or CMS manual coding instruction
+G2007,G0082,20190401,0,CPT Manual or CMS manual coding instruction
+G2007,G0083,20190401,0,CPT Manual or CMS manual coding instruction
+G2007,G0084,20190401,0,CPT Manual or CMS manual coding instruction
+G2007,G0085,20190401,0,CPT Manual or CMS manual coding instruction
+G2007,G0086,20190401,0,CPT Manual or CMS manual coding instruction
+G2007,G0087,20190401,0,CPT Manual or CMS manual coding instruction
+G2008,G0076,20190401,0,CPT Manual or CMS manual coding instruction
+G2008,G0077,20190401,0,CPT Manual or CMS manual coding instruction
+G2008,G0078,20190401,0,CPT Manual or CMS manual coding instruction
+G2008,G0079,20190401,0,CPT Manual or CMS manual coding instruction
+G2008,G0080,20190401,0,CPT Manual or CMS manual coding instruction
+G2008,G0081,20190401,0,CPT Manual or CMS manual coding instruction
+G2008,G0082,20190401,0,CPT Manual or CMS manual coding instruction
+G2008,G0083,20190401,0,CPT Manual or CMS manual coding instruction
+G2008,G0084,20190401,0,CPT Manual or CMS manual coding instruction
+G2008,G0085,20190401,0,CPT Manual or CMS manual coding instruction
+G2008,G0086,20190401,0,CPT Manual or CMS manual coding instruction
+G2008,G0087,20190401,0,CPT Manual or CMS manual coding instruction
+G2009,G0076,20190401,0,CPT Manual or CMS manual coding instruction
+G2009,G0077,20190401,0,CPT Manual or CMS manual coding instruction
+G2009,G0078,20190401,0,CPT Manual or CMS manual coding instruction
+G2009,G0079,20190401,0,CPT Manual or CMS manual coding instruction
+G2009,G0080,20190401,0,CPT Manual or CMS manual coding instruction
+G2009,G0081,20190401,0,CPT Manual or CMS manual coding instruction
+G2009,G0082,20190401,0,CPT Manual or CMS manual coding instruction
+G2009,G0083,20190401,0,CPT Manual or CMS manual coding instruction
+G2009,G0084,20190401,0,CPT Manual or CMS manual coding instruction
+G2009,G0085,20190401,0,CPT Manual or CMS manual coding instruction
+G2009,G0086,20190401,0,CPT Manual or CMS manual coding instruction
+G2009,G0087,20190401,0,CPT Manual or CMS manual coding instruction
+G2011,G0442,20201001,0,Mutually exclusive procedures
+G2013,G0076,20190401,0,CPT Manual or CMS manual coding instruction
+G2013,G0077,20190401,0,CPT Manual or CMS manual coding instruction
+G2013,G0078,20190401,0,CPT Manual or CMS manual coding instruction
+G2013,G0079,20190401,0,CPT Manual or CMS manual coding instruction
+G2013,G0080,20190401,0,CPT Manual or CMS manual coding instruction
+G2013,G0081,20190401,0,CPT Manual or CMS manual coding instruction
+G2013,G0082,20190401,0,CPT Manual or CMS manual coding instruction
+G2013,G0083,20190401,0,CPT Manual or CMS manual coding instruction
+G2013,G0084,20190401,0,CPT Manual or CMS manual coding instruction
+G2013,G0085,20190401,0,CPT Manual or CMS manual coding instruction
+G2013,G0086,20190401,0,CPT Manual or CMS manual coding instruction
+G2013,G0087,20190401,0,CPT Manual or CMS manual coding instruction
+G2014,G0076,20190401,0,CPT Manual or CMS manual coding instruction
+G2014,G0077,20190401,0,CPT Manual or CMS manual coding instruction
+G2014,G0078,20190401,0,CPT Manual or CMS manual coding instruction
+G2014,G0079,20190401,0,CPT Manual or CMS manual coding instruction
+G2014,G0080,20190401,0,CPT Manual or CMS manual coding instruction
+G2014,G0081,20190401,0,CPT Manual or CMS manual coding instruction
+G2014,G0082,20190401,0,CPT Manual or CMS manual coding instruction
+G2014,G0083,20190401,0,CPT Manual or CMS manual coding instruction
+G2014,G0084,20190401,0,CPT Manual or CMS manual coding instruction
+G2014,G0085,20190401,0,CPT Manual or CMS manual coding instruction
+G2014,G0086,20190401,0,CPT Manual or CMS manual coding instruction
+G2014,G0087,20190401,0,CPT Manual or CMS manual coding instruction
+G2015,G0076,20190401,0,CPT Manual or CMS manual coding instruction
+G2015,G0077,20190401,0,CPT Manual or CMS manual coding instruction
+G2015,G0078,20190401,0,CPT Manual or CMS manual coding instruction
+G2015,G0079,20190401,0,CPT Manual or CMS manual coding instruction
+G2015,G0080,20190401,0,CPT Manual or CMS manual coding instruction
+G2015,G0081,20190401,0,CPT Manual or CMS manual coding instruction
+G2015,G0082,20190401,0,CPT Manual or CMS manual coding instruction
+G2015,G0083,20190401,0,CPT Manual or CMS manual coding instruction
+G2015,G0084,20190401,0,CPT Manual or CMS manual coding instruction
+G2015,G0085,20190401,0,CPT Manual or CMS manual coding instruction
+G2015,G0086,20190401,0,CPT Manual or CMS manual coding instruction
+G2015,G0087,20190401,0,CPT Manual or CMS manual coding instruction
+J1560,J1460,20000701,0,More extensive procedure
+J2790,J2792,20000701,1,Mutually exclusive procedures
+J7298,J7297,20160701,0,Mutually exclusive procedures
+M0224,E0781,20250101,1,Misuse of Column Two code with Column One code
+M0224,G0463,20250101,1,Misuse of Column Two code with Column One code
+M0224,G0471,20250101,1,Misuse of Column Two code with Column One code
+P3000,G0380,20081001,1,Standards of medical/surgical practice
+P3000,G0381,20081001,1,Standards of medical/surgical practice
+P3000,G0382,20081001,1,Standards of medical/surgical practice
+P3000,G0383,20081001,1,Standards of medical/surgical practice
+P3000,G0384,20081001,1,Standards of medical/surgical practice
+P3000,G0406,20201001,1,Standards of medical/surgical practice
+P3000,G0407,20201001,1,Standards of medical/surgical practice
+P3000,G0408,20201001,1,Standards of medical/surgical practice
+P3000,G0425,20201001,1,Standards of medical/surgical practice
+P3000,G0426,20201001,1,Standards of medical/surgical practice
+P3000,G0427,20201001,1,Standards of medical/surgical practice
+P3000,G0463,20140701,1,Standards of medical/surgical practice
+P3000,G0508,20201001,1,Standards of medical/surgical practice
+P3000,G0509,20201001,1,Standards of medical/surgical practice
+P3001,G0123,20070701,0,Misuse of Column Two code with Column One code
+P3001,G0141,20070701,0,Standards of medical/surgical practice
+P3001,G0143,20070701,0,Misuse of Column Two code with Column One code
+P3001,G0144,20070701,0,Misuse of Column Two code with Column One code
+P3001,G0145,20070701,0,Misuse of Column Two code with Column One code
+P3001,G0147,20070701,0,Misuse of Column Two code with Column One code
+P3001,G0148,20070701,0,Misuse of Column Two code with Column One code
+P3001,G0380,20081001,1,Standards of medical/surgical practice
+P3001,G0381,20081001,1,Standards of medical/surgical practice
+P3001,G0382,20081001,1,Standards of medical/surgical practice
+P3001,G0383,20081001,1,Standards of medical/surgical practice
+P3001,G0384,20081001,1,Standards of medical/surgical practice
+P3001,G0406,20201001,1,Standards of medical/surgical practice
+P3001,G0407,20201001,1,Standards of medical/surgical practice
+P3001,G0408,20201001,1,Standards of medical/surgical practice
+P3001,G0425,20201001,1,Standards of medical/surgical practice
+P3001,G0426,20201001,1,Standards of medical/surgical practice
+P3001,G0427,20201001,1,Standards of medical/surgical practice
+P3001,G0463,20140701,1,Standards of medical/surgical practice
+P3001,G0508,20201001,1,Standards of medical/surgical practice
+P3001,G0509,20201001,1,Standards of medical/surgical practice
+P9011,P9010,19960101,1,Mutually exclusive procedures
+P9011,P9021,20020401,0,Mutually exclusive procedures
+P9011,P9022,20020401,0,Mutually exclusive procedures
+P9011,P9039,20020401,0,Mutually exclusive procedures
+P9022,P9010,20020401,1,Mutually exclusive procedures
+P9022,P9016,20020401,1,Mutually exclusive procedures
+P9022,P9021,20020401,1,Mutually exclusive procedures
+P9022,P9039,20020401,1,Mutually exclusive procedures
+P9032,P9010,20020401,1,Misuse of Column Two code with Column One code
+P9032,P9011,20020401,1,Misuse of Column Two code with Column One code
+P9032,P9016,20020401,1,Misuse of Column Two code with Column One code
+P9032,P9019,20020401,1,Misuse of Column Two code with Column One code
+P9032,P9020,20020401,1,Misuse of Column Two code with Column One code
+P9032,P9021,20020401,1,Misuse of Column Two code with Column One code
+P9032,P9022,20020401,1,Misuse of Column Two code with Column One code
+P9032,P9031,20020401,1,Misuse of Column Two code with Column One code
+P9032,P9034,20020401,1,Misuse of Column Two code with Column One code
+P9032,P9035,20020401,1,Misuse of Column Two code with Column One code
+P9032,P9039,20020401,1,Misuse of Column Two code with Column One code
+P9032,P9073,20180701,1,Misuse of Column Two code with Column One code
+P9033,P9010,20020401,1,Misuse of Column Two code with Column One code
+P9033,P9011,20020401,1,Misuse of Column Two code with Column One code
+P9033,P9016,20020401,1,Misuse of Column Two code with Column One code
+P9033,P9019,20020401,1,Misuse of Column Two code with Column One code
+P9033,P9020,20020401,1,Misuse of Column Two code with Column One code
+P9033,P9021,20020401,1,Misuse of Column Two code with Column One code
+P9033,P9022,20020401,1,Misuse of Column Two code with Column One code
+P9033,P9031,20020401,1,Misuse of Column Two code with Column One code
+P9033,P9034,20020401,1,Misuse of Column Two code with Column One code
+P9033,P9035,20020401,1,Misuse of Column Two code with Column One code
+P9033,P9039,20020401,1,Misuse of Column Two code with Column One code
+P9033,P9073,20180701,1,Misuse of Column Two code with Column One code
+P9034,P9073,20180701,1,Mutually exclusive procedures
+P9036,P9010,20020401,1,Misuse of Column Two code with Column One code
+P9036,P9011,20020401,1,Misuse of Column Two code with Column One code
+P9036,P9016,20020401,1,Misuse of Column Two code with Column One code
+P9036,P9019,20020401,1,Misuse of Column Two code with Column One code
+P9036,P9020,20020401,1,Misuse of Column Two code with Column One code
+P9036,P9021,20020401,1,Misuse of Column Two code with Column One code
+P9036,P9022,20020401,1,Misuse of Column Two code with Column One code
+P9036,P9031,20020401,1,Misuse of Column Two code with Column One code
+P9036,P9034,20020401,1,Misuse of Column Two code with Column One code
+P9036,P9035,20020401,1,Misuse of Column Two code with Column One code
+P9036,P9039,20020401,1,Misuse of Column Two code with Column One code
+P9036,P9073,20180701,1,Misuse of Column Two code with Column One code
+P9037,P9010,20020401,1,Misuse of Column Two code with Column One code
+P9037,P9011,20020401,1,Misuse of Column Two code with Column One code
+P9037,P9016,20020401,1,Misuse of Column Two code with Column One code
+P9037,P9019,20020401,1,Misuse of Column Two code with Column One code
+P9037,P9020,20020401,1,Misuse of Column Two code with Column One code
+P9037,P9021,20020401,1,Misuse of Column Two code with Column One code
+P9037,P9022,20020401,1,Misuse of Column Two code with Column One code
+P9037,P9031,20020401,1,Misuse of Column Two code with Column One code
+P9037,P9034,20020401,1,Misuse of Column Two code with Column One code
+P9037,P9035,20020401,1,Misuse of Column Two code with Column One code
+P9037,P9039,20020401,1,Misuse of Column Two code with Column One code
+P9037,P9073,20180701,1,Misuse of Column Two code with Column One code
+P9038,P9010,20020401,1,Misuse of Column Two code with Column One code
+P9038,P9011,20020401,1,Misuse of Column Two code with Column One code
+P9038,P9016,20020401,1,Misuse of Column Two code with Column One code
+P9038,P9019,20020401,1,Misuse of Column Two code with Column One code
+P9038,P9020,20020401,1,Misuse of Column Two code with Column One code
+P9038,P9021,20020401,1,Misuse of Column Two code with Column One code
+P9038,P9022,20020401,1,Misuse of Column Two code with Column One code
+P9038,P9031,20020401,1,Misuse of Column Two code with Column One code
+P9038,P9034,20020401,1,Misuse of Column Two code with Column One code
+P9038,P9035,20020401,1,Misuse of Column Two code with Column One code
+P9038,P9039,20020401,1,Misuse of Column Two code with Column One code
+P9038,P9073,20180701,1,Misuse of Column Two code with Column One code
+P9039,P9010,20020401,1,Mutually exclusive procedures
+P9039,P9016,20020401,1,Mutually exclusive procedures
+P9039,P9021,20020401,1,Mutually exclusive procedures
+P9040,P9010,20020401,1,Misuse of Column Two code with Column One code
+P9040,P9011,20020401,1,Misuse of Column Two code with Column One code
+P9040,P9016,20020401,1,Misuse of Column Two code with Column One code
+P9040,P9019,20020401,1,Misuse of Column Two code with Column One code
+P9040,P9020,20020401,1,Misuse of Column Two code with Column One code
+P9040,P9021,20020401,1,Misuse of Column Two code with Column One code
+P9040,P9022,20020401,1,Misuse of Column Two code with Column One code
+P9040,P9031,20020401,1,Misuse of Column Two code with Column One code
+P9040,P9034,20020401,1,Misuse of Column Two code with Column One code
+P9040,P9035,20020401,1,Misuse of Column Two code with Column One code
+P9040,P9039,20020401,1,Misuse of Column Two code with Column One code
+P9040,P9073,20180701,1,Misuse of Column Two code with Column One code
+P9603,P9604,19960101,1,Mutually exclusive procedures
+P9612,P9615,20000701,0,Mutually exclusive procedures
+Q0091,G0181,20020401,1,Standards of medical/surgical practice
+Q0091,G0182,20020401,1,Standards of medical/surgical practice
+Q0091,G0380,20081001,1,Standards of medical/surgical practice
+Q0091,G0381,20081001,1,Standards of medical/surgical practice
+Q0091,G0382,20081001,1,Standards of medical/surgical practice
+Q0091,G0383,20081001,1,Standards of medical/surgical practice
+Q0091,G0384,20081001,1,Standards of medical/surgical practice
+Q0091,G0406,20201001,1,Standards of medical/surgical practice
+Q0091,G0407,20201001,1,Standards of medical/surgical practice
+Q0091,G0408,20201001,1,Standards of medical/surgical practice
+Q0091,G0425,20201001,1,Standards of medical/surgical practice
+Q0091,G0426,20201001,1,Standards of medical/surgical practice
+Q0091,G0427,20201001,1,Standards of medical/surgical practice
+Q0091,G0463,20140701,1,Standards of medical/surgical practice
+Q0091,G0508,20201001,1,Standards of medical/surgical practice
+Q0091,G0509,20201001,1,Standards of medical/surgical practice
+Q1004,Q1005,20010701,1,Mutually exclusive procedures
+Q2035,Q2034,20130701,0,Mutually exclusive procedures
+Q2035,Q2036,20110701,0,Mutually exclusive procedures
+Q2035,Q2037,20110701,0,Mutually exclusive procedures
+Q2035,Q2038,20110701,0,Mutually exclusive procedures
+Q2035,Q2039,20110701,0,Mutually exclusive procedures
+Q2036,Q2034,20130701,0,Mutually exclusive procedures
+Q2036,Q2037,20110701,0,Mutually exclusive procedures
+Q2036,Q2038,20110701,0,Mutually exclusive procedures
+Q2036,Q2039,20110701,0,Mutually exclusive procedures
+Q2037,Q2034,20130701,0,Mutually exclusive procedures
+Q2037,Q2038,20110701,0,Mutually exclusive procedures
+Q2037,Q2039,20110701,0,Mutually exclusive procedures
+Q2038,Q2034,20130701,0,Mutually exclusive procedures
+Q2038,Q2039,20110701,0,Mutually exclusive procedures
+Q2039,Q2034,20130701,0,Mutually exclusive procedures
+Q2043,G0380,20110701,1,Standards of medical/surgical practice
+Q2043,G0381,20110701,1,Standards of medical/surgical practice
+Q2043,G0382,20110701,1,Standards of medical/surgical practice
+Q2043,G0383,20110701,1,Standards of medical/surgical practice
+Q2043,G0384,20110701,1,Standards of medical/surgical practice
+Q2043,G0463,20140701,1,Standards of medical/surgical practice
+Q2043,G0471,20150701,1,Standards of medical/surgical practice
+Q9951,Q9959,20180401,0,Mutually exclusive procedures
+Q9951,Q9964,20180401,0,Mutually exclusive procedures
+Q9958,Q9951,20180401,0,Mutually exclusive procedures
+Q9958,Q9959,20180401,0,Mutually exclusive procedures
+Q9958,Q9964,20180401,0,Mutually exclusive procedures
+Q9958,Q9965,20180401,1,Mutually exclusive procedures
+Q9958,Q9966,20180401,1,Mutually exclusive procedures
+Q9958,Q9967,20180401,1,Mutually exclusive procedures
+Q9959,Q9964,20180401,0,Mutually exclusive procedures
+Q9960,Q9951,20180401,0,Mutually exclusive procedures
+Q9960,Q9958,20180401,1,Mutually exclusive procedures
+Q9960,Q9959,20180401,0,Mutually exclusive procedures
+Q9960,Q9964,20180401,0,Mutually exclusive procedures
+Q9960,Q9965,20180401,1,Mutually exclusive procedures
+Q9960,Q9966,20180401,1,Mutually exclusive procedures
+Q9960,Q9967,20180401,1,Mutually exclusive procedures
+Q9961,Q9951,20180401,0,Mutually exclusive procedures
+Q9961,Q9958,20180401,1,Mutually exclusive procedures
+Q9961,Q9959,20180401,0,Mutually exclusive procedures
+Q9961,Q9960,20180401,1,Mutually exclusive procedures
+Q9961,Q9964,20180401,0,Mutually exclusive procedures
+Q9961,Q9965,20180401,1,Mutually exclusive procedures
+Q9961,Q9966,20180401,1,Mutually exclusive procedures
+Q9961,Q9967,20180401,1,Mutually exclusive procedures
+Q9962,Q9951,20180401,0,Mutually exclusive procedures
+Q9962,Q9958,20180401,1,Mutually exclusive procedures
+Q9962,Q9959,20180401,0,Mutually exclusive procedures
+Q9962,Q9960,20180401,1,Mutually exclusive procedures
+Q9962,Q9961,20180401,1,Mutually exclusive procedures
+Q9962,Q9964,20180401,0,Mutually exclusive procedures
+Q9962,Q9965,20180401,1,Mutually exclusive procedures
+Q9962,Q9966,20180401,1,Mutually exclusive procedures
+Q9962,Q9967,20180401,1,Mutually exclusive procedures
+Q9963,Q9951,20180401,0,Mutually exclusive procedures
+Q9963,Q9958,20180401,1,Mutually exclusive procedures
+Q9963,Q9959,20180401,0,Mutually exclusive procedures
+Q9963,Q9960,20180401,1,Mutually exclusive procedures
+Q9963,Q9961,20180401,1,Mutually exclusive procedures
+Q9963,Q9962,20180401,1,Mutually exclusive procedures
+Q9963,Q9964,20180401,0,Mutually exclusive procedures
+Q9963,Q9965,20180401,1,Mutually exclusive procedures
+Q9963,Q9966,20180401,1,Mutually exclusive procedures
+Q9963,Q9967,20180401,1,Mutually exclusive procedures
+Q9965,Q9951,20180401,0,Mutually exclusive procedures
+Q9965,Q9959,20180401,0,Mutually exclusive procedures
+Q9965,Q9964,20180401,0,Mutually exclusive procedures
+Q9966,Q9951,20180401,0,Mutually exclusive procedures
+Q9966,Q9959,20180401,0,Mutually exclusive procedures
+Q9966,Q9964,20180401,0,Mutually exclusive procedures
+Q9966,Q9965,20180401,1,Mutually exclusive procedures
+Q9967,Q9951,20180401,0,Mutually exclusive procedures
+Q9967,Q9959,20180401,0,Mutually exclusive procedures
+Q9967,Q9964,20180401,0,Mutually exclusive procedures
+Q9967,Q9965,20180401,1,Mutually exclusive procedures
+Q9967,Q9966,20180401,1,Mutually exclusive procedures
+R0075,R0070,19960101,1,HCPCS/CPT procedure code definition
+U0001,U0002,20210701,0,Mutually exclusive procedures

@@ -1,0 +1,233 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "medical-coding/coded_claims.schema.json",
+  "title": "Coded claims (agent writes /app/output/coded_claims.json): {case_id: claim}",
+  "type": "object",
+  "minProperties": 1,
+  "propertyNames": {
+    "pattern": "^ICD[0-9]{2}-[A-Z]$",
+    "description": "Case id = folder name in /app/cases/"
+  },
+  "additionalProperties": {
+    "$ref": "#/$defs/claim"
+  },
+  "$defs": {
+    "claim": {
+      "type": "object",
+      "required": [
+        "query_needed",
+        "query_text",
+        "codes"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "query_needed": {
+          "type": "boolean",
+          "description": "true when the documentation is not enough to assign a code correctly and the provider must be queried."
+        },
+        "query_text": {
+          "type": "string",
+          "description": "The provider query (clinical indicators from the chart + answer options). Empty string when query_needed is false."
+        },
+        "codes": {
+          "type": "array",
+          "description": "Codes that belong on the claim, in reporting order. When a query is raised, only the codes that do not depend on its answer.",
+          "items": {
+            "$ref": "#/$defs/code"
+          }
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "query_needed": {
+                "const": true
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "query_text": {
+                "minLength": 1
+              }
+            }
+          }
+        }
+      ],
+      "description": "One case's claim."
+    },
+    "code": {
+      "type": "object",
+      "required": [
+        "code",
+        "system",
+        "role",
+        "evidence"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "code": {
+          "type": "string",
+          "minLength": 1,
+          "description": "ICD-10-CM with the dot (A41.51), 7-character ICD-10-PCS (0QS604Z), HCPCS Level II (J3301), or a charge-master line id (PROC1). Never CPT or CDT."
+        },
+        "system": {
+          "enum": [
+            "ICD-10-CM",
+            "ICD-10-PCS",
+            "HCPCS",
+            "CDM"
+          ]
+        },
+        "role": {
+          "enum": [
+            "principal",
+            "first_listed",
+            "secondary",
+            "principal_procedure",
+            "procedure",
+            "line"
+          ],
+          "description": "Diagnoses: principal (inpatient) / first_listed (outpatient) / secondary. ICD-10-PCS: principal_procedure / procedure. HCPCS and CDM: line."
+        },
+        "poa": {
+          "enum": [
+            "Y",
+            "N",
+            "U",
+            "W"
+          ],
+          "description": "Present-on-admission indicator. Inpatient diagnoses only; omit for POA-exempt codes and non-inpatient encounters."
+        },
+        "modifiers": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Z0-9]{2}$"
+          },
+          "description": "HCPCS Level II modifiers (e.g. RT, LT, GA, GZ, PT, JZ). HCPCS and CDM lines only."
+        },
+        "units": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Billing units. HCPCS and CDM lines only."
+        },
+        "evidence": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Short quote copied word for word from a chart file that supports the code."
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "system": {
+                "enum": [
+                  "HCPCS",
+                  "CDM"
+                ]
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "role": {
+                "const": "line"
+              }
+            },
+            "required": [
+              "units"
+            ]
+          },
+          "else": {
+            "not": {
+              "anyOf": [
+                {
+                  "required": [
+                    "modifiers"
+                  ]
+                },
+                {
+                  "required": [
+                    "units"
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "system": {
+                "const": "ICD-10-CM"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "role": {
+                "enum": [
+                  "principal",
+                  "first_listed",
+                  "secondary"
+                ]
+              },
+              "code": {
+                "pattern": "^[A-Z][0-9][0-9A-Z](\\.[0-9A-Z]{1,4})?$"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "system": {
+                "const": "ICD-10-PCS"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "role": {
+                "enum": [
+                  "principal_procedure",
+                  "procedure"
+                ]
+              },
+              "code": {
+                "pattern": "^[0-9A-HJ-NP-Z]{7}$"
+              }
+            },
+            "not": {
+              "required": [
+                "poa"
+              ]
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "system": {
+                "enum": [
+                  "HCPCS",
+                  "CDM"
+                ]
+              }
+            }
+          },
+          "then": {
+            "not": {
+              "required": [
+                "poa"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  }
+}

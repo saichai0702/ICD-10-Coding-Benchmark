@@ -1,0 +1,8 @@
+{
+  "case_id": "ICD02-C",
+  "setting": "office",
+  "claim_type": "professional",
+  "service": "2026-10-20",
+  "payer": "Medicare fee-for-service",
+  "code_set": "FY2027 ICD-10-CM/PCS; HCPCS Level II October 2026"
+}

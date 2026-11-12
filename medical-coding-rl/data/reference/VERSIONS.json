@@ -1,0 +1,29 @@
+{
+  "icd10cm": "FY2027 (discharges / dates of service 2026-10-01 to 2027-09-30) \u2014 order file, tabular, index, external-cause index",
+  "icd10pcs": "FY2027 \u2014 order file + tables",
+  "guidelines": "ICD-10-CM and ICD-10-PCS Official Guidelines for Coding and Reporting FY2027",
+  "poa_exempt": "FY2027 POA exempt list",
+  "hcpcs": "HCPCS Level II October 2026 (D-codes / CDT excluded)",
+  "ncci": "NCCI MUE + practitioner PTP, 2026 Q3, HCPCS Level II rows only (CPT rows removed)",
+  "lcd_ncd": "Medicare Coverage Database snapshot: ICD-10 coverage lists + policy text, CPT numbers redacted",
+  "excluded_licensed": [
+    "CPT codes, descriptors and modifiers (AMA)",
+    "CDT dental codes (ADA)",
+    "AHA Coding Clinic"
+  ],
+  "counts": {
+    "icd10cm": 98403,
+    "icd10pcs": 80174,
+    "poa_exempt": 38399,
+    "hcpcs": 8770,
+    "hcpcs_modifiers": 384,
+    "ncci_mue_level2": 12069,
+    "ncci_ptp_level2": 1090,
+    "lcd": 12,
+    "lcd_article": 14,
+    "lcd_article_icd10_covered": 7969,
+    "ncd": 1,
+    "guidelines_pcs_cpt_like_numbers": 0,
+    "guidelines_cm_cpt_like_numbers": 2
+  }
+}
