@@ -232,7 +232,7 @@ scripts/run.sh -a oracle --job-name oracle-internet
 
 ```bash
 cd medical-coding-rl
-scripts/run.sh -a claude-code -m anthropic/claude-opus-5-5 \
+scripts/run.sh -a <agent> -m <model provider>/<model name> \
   --env-file .env --job-name reference-opus
 ```
 
