@@ -238,16 +238,17 @@ scripts/run.sh -a claude-code -m anthropic/claude-opus-5-5 \
 
 ### 3. Benchmark a model WITHOUT reference data (internet search)
 
+
 ```bash
 cd medical-coding-rl-internet-search
-scripts/run.sh -a claude-code -m anthropic/claude-opus-5-5 \
+scripts/run.sh -a <agent> -m <model provider>/ <model name> \
   --env-file .env --job-name internet-opus
 ```
 
 ### Calling Harbor directly (without the wrapper)
 
 ```bash
-uv run harbor run -p tasks/medical-coding -a claude-code -m anthropic/claude-opus-5-5 \
+uv run harbor run -p tasks/medical-coding -a <agent> -m <model provider>/ <model name> \
   --env-file .env --job-name my-run -y
 uv run python scripts/job_report.py jobs/my-run      # write the benchmark report
 ```
