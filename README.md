@@ -15,6 +15,14 @@ difference is where the agent gets its coding reference material:
 Comparing a model's score on the two tasks shows how much of its performance comes from coding
 knowledge and how much depends on having the correct reference data.
 
+### Benchmark results
+
+Mean task reward (0..1, averaged over the 36 cases) with `k = 1` (one attempt per trial):
+
+| Model | With reference data (built in) | With reference dataset web links | Without reference data (web search) |
+|---|---|---|---|
+| `claude-opus-5-5` | **0.93** | 0.91 | 0.82 |
+
 > [!IMPORTANT]
 > **Raw CMS data is not in git. Download it with the setup script.**
 >
